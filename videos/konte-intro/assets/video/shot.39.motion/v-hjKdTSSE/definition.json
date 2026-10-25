@@ -1,0 +1,98 @@
+{
+  "kind": "comfy",
+  "workflow": "video_minimax_h3_r2v.json",
+  "inputs": {
+    "137.image": "__konte:reference:filmPanelKind__",
+    "136.prompt": "subject_definitions: <Picture 1> is the keyframe of [Shot 1]: the painted film filling the frame: the cream paper whale over rainy slate-blue rooftops, its round, kind eye.\n\nsummary: [keyframe completion] The paper whale swims across the screen and turns its kind eye toward the viewer.\n\nretention_analysis: <Picture 1> ([Shot 1] keyframe): partially_preserved - the framing, the set, the light, the line and the colours hold through the whole shot; its pose is the moment the motion passes through, as the description writes it.\n\ndetailed_description: watercolor. A soft, velvety hand-painted gouache picture-book illustration with gentle round brush texture and soft edges. [Shot 1] The shot's keyframe corresponds to <Picture 1>, whose framing, set and light hold from the first frame to the last. The painted film fills the whole frame in soft, velvety gouache. The cream paper whale drifts slowly a short way toward the left over the rainy slate-blue rooftops, its folded fins tilting gently, fine rain streaking past; its head and eye stay well inside the frame, near the middle, the whole time. Its round, soft eye looks out toward the viewer the whole time: a large dark pupil filling the eye with one small white highlight, calm and kind, the eye shape and pupil steady from the first frame to the last. The painted rooftops below hold still as the whale passes over them. The camera holds a static shot. Through every frame the picture keeps the look of <Picture 1>: the same soft, velvety gouache brushwork, the same palette and light.\n\noverall_soundscape: The soft sound of rain from the film, a gentle swell of air, and the quiet whir of a projector in a hushed hall.\n\nnon_diegetic_music: N/A",
+    "136.width": 1248,
+    "136.height": 704,
+    "136.length": 73,
+    "136.ref_image_size": "max",
+    "129.noise_seed": "__konte:seed__",
+    "143.value": 20,
+    "146.value": false,
+    "130.fps": 24,
+    "127.unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "128.clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "119.vae_name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "120.vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+    "145.lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+  },
+  "prunedNodes": [
+    "139",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154",
+    "155",
+    "156",
+    "157",
+    "158",
+    "159",
+    "169",
+    "170",
+    "171",
+    "160",
+    "161",
+    "162",
+    "163",
+    "164",
+    "165",
+    "166",
+    "167",
+    "168"
+  ],
+  "prunedPassThroughs": {
+    "164": "positive",
+    "166": "positive",
+    "168": "positive"
+  },
+  "models": [
+    {
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+    },
+    {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    },
+    {
+      "filename": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "type": "lora",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "137.image": "image1",
+    "136.prompt": "prompt",
+    "136.width": "width",
+    "136.height": "height",
+    "136.length": "length",
+    "136.ref_image_size": "refImageSize",
+    "129.noise_seed": "seed",
+    "143.value": "steps",
+    "146.value": "useTurbo",
+    "130.fps": "fps",
+    "127.unet_name": "unetName",
+    "128.clip_name": "clipName",
+    "119.vae_name": "vaeName",
+    "120.vae_name": "audioVaeName",
+    "145.lora_name": "loraName"
+  }
+}

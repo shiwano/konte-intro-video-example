@@ -1,0 +1,67 @@
+{
+  "kind": "comfy",
+  "workflow": "image_minimax_h3_r2i.json",
+  "inputs": {
+    "21.image": "__konte:reference:hall__",
+    "22.image": "__konte:reference:filmPanelKind__",
+    "10.prompt": "subject_definitions: <Subject 1> is the darkened school auditorium in <Picture 1>.\n<Subject 2> is the painted film frame, a soft gouache picture of a whale folded from cream paper swimming over rainy slate-blue rooftops, in <Picture 2>.\n\nsummary: [keyframe completion] The darkened auditorium of <Subject 1> during the screening, the painted paper whale of <Subject 2> on the glowing screen.\n\nretention_analysis: <Subject 1> (appears in [Shot 1]): fully_preserved - the auditorium, the silhouetted audience, the camera position, framing and light hold; the screen shows the film as the description writes it.\n<Subject 2> (appears in [Shot 1]): fully_preserved - its picture plays on the projection screen, small inside the frame.\n\ndetailed_description: 2D-animated. A modern flat-colour anime illustration with bold, clean dark outlines of even weight, bright flat cel colours and one simple step of soft lavender shading. [Shot 1] The darkened school auditorium of <Subject 1> seen from the back at seated eye level, as in <Picture 1>: rows of theater seats filled with students drawn as soft dark violet silhouettes of heads and shoulders across the lower half of the frame. The large projection screen at the front glows, the only light in the room, showing the painted film frame of <Subject 2> whole: the cream paper whale swimming toward screen left over the rainy slate-blue rooftops. Its pale glow spills over the tops of the silhouetted heads.\n\noverall_soundscape: N/A\n\nnon_diegetic_music: N/A",
+    "10.width": 1248,
+    "10.height": 704,
+    "10.ref_image_size": "max",
+    "11.noise_seed": "__konte:seed__",
+    "13.steps": 20,
+    "1.unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "2.clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "3.vae_name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "4.vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+    "10.length": 5,
+    "17.batch_index": 0
+  },
+  "prunedNodes": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ],
+  "models": [
+    {
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+    },
+    {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "21.image": "image1",
+    "22.image": "image2",
+    "10.prompt": "prompt",
+    "10.width": "width",
+    "10.height": "height",
+    "10.ref_image_size": "refImageSize",
+    "11.noise_seed": "seed",
+    "13.steps": "steps",
+    "1.unet_name": "unetName",
+    "2.clip_name": "clipName",
+    "3.vae_name": "vaeName",
+    "4.vae_name": "audioVaeName",
+    "10.length": "length",
+    "17.batch_index": "frameIndex"
+  }
+}

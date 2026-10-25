@@ -1,0 +1,31 @@
+{
+  "kind": "comfy",
+  "workflow": "audio_yue2.json",
+  "inputs": {
+    "54.value": "Bright playful indie pop, 112 BPM, 4/4, plucky acoustic guitar, glockenspiel melody, soft upright piano, light brushed drums, round warm bass, gentle handclaps, cozy warm production",
+    "55.value": "",
+    "56.value": 112,
+    "42.mode": "full",
+    "46.mode": "full",
+    "46.max_duration": 150,
+    "53.seed": "__konte:seed__",
+    "41.ckpt_name": "yue2_3b_int8_convrot.safetensors"
+  },
+  "models": [
+    {
+      "filename": "yue2_3b_int8_convrot.safetensors",
+      "type": "checkpoint",
+      "url": "https://huggingface.co/Comfy-Org/YuE2/resolve/main/checkpoints/yue2_3b_int8_convrot.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "54.value": "style",
+    "55.value": "lyrics",
+    "56.value": "bpm",
+    "42.mode": "mode",
+    "46.mode": "mode",
+    "46.max_duration": "maxDuration",
+    "53.seed": "seed",
+    "41.ckpt_name": "ckptName"
+  }
+}

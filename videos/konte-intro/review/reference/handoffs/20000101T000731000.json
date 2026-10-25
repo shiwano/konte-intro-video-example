@@ -1,0 +1,14 @@
+{
+  "stage": "reference",
+  "summary": "冒頭 n05（タイムラインに並んだクリップごとにクジラの目つきが違う）で使う、目つき違いのクジラを2枚追加しました。既存の「やさしい目」「きつい目」と並べて使います。",
+  "notes": [
+    {
+      "address": "reference:filmPanelSleepy",
+      "text": "眠そうな半目のクジラです。"
+    },
+    {
+      "address": "reference:filmPanelStare",
+      "text": "まん丸に見開いたクジラです。"
+    }
+  ]
+}

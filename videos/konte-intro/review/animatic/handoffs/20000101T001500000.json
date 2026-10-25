@@ -1,0 +1,26 @@
+{
+  "stage": "animatic",
+  "summary": "konteの革新性が伝わるように、前半の困りごとを画面で見せ、後半で回収する手直しです。生成したのはn08の声だけです。",
+  "notes": [
+    {
+      "address": "animatic:shot.n07",
+      "text": "ファイル名にショット番号を入れて、いくつものショットの作り直しが積み上がり、件数も38→246件と増えるようにしました。「ショットの数×作り直し」の大変さを見せます。"
+    },
+    {
+      "address": "animatic:shot.n08",
+      "text": "セリフを「Why is a whole movie so hard...?」に変えて、声を録り直しました。採用していただければ、これに合わせて動画の口の動きを作ります。"
+    },
+    {
+      "address": "animatic:shot.n09",
+      "text": "掲示板の投稿を「Single clips are easy. Why is a multi-shot film so hard?」にして、konteを勧めるコメントを「That's a production problem, not a generation one.」にしました。"
+    },
+    {
+      "address": "animatic:shot.28",
+      "text": "実物のUIどおり、タイムラインとTakesボタンに「2 takes・1 new」を表示しました。前のテイクも残っていて、採用を決めるのは次の29の彼女です（n07のファイルの山への答えです）。"
+    },
+    {
+      "address": "animatic:shot.30",
+      "text": "画面の部品を共通化した関係で作り直しになりましたが、見た目は変わっていません。"
+    }
+  ]
+}

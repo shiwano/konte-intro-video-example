@@ -1,0 +1,21 @@
+{
+  "kind": "local",
+  "operation": "render",
+  "mediaType": "image",
+  "inputs": {
+    "stage": "<style>#stage { background: #000000; }</style><div style=\"position:absolute;inset:0;background:#f7f3ee;font-family:&quot;Nunito&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif;color:#2f2a26\"><div style=\"height:4.6vmax;display:flex;align-items:center;gap:1vmax;padding:0 2.4vmax;background:#fff;border-bottom:0.1vmax solid #ebe4da\"><div style=\"width:2.2vmax;height:2.2vmax;border-radius:50%;background:linear-gradient(135deg, #ff9a5a, #2bb3a3)\"></div><span style=\"font-size:1.9vmax;font-weight:800\">Clipwell</span><span style=\"margin-left:3vmax;font-size:1.3vmax;font-weight:700;color:#2f2a26\">Create</span><span style=\"margin-left:1.6vmax;font-size:1.3vmax;font-weight:700;color:#a39a90\">Library</span><div style=\"margin-left:auto;width:2.2vmax;height:2.2vmax;border-radius:50%;background:#e6ddd2\"></div></div><div style=\"position:absolute;left:2.4vmax;top:6.4vmax;width:30vmax;display:flex;flex-direction:column;gap:1.2vmax\"><div style=\"background:#fff;border-radius:1vmax;padding:1.2vmax;box-shadow:0 0.3vmax 1.2vmax rgba(80,60,40,.08)\"><div style=\"font-size:1.15vmax;font-weight:800;color:#8a8178;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.7vmax\">Image</div><div style=\"position:relative;aspect-ratio:16 / 10;border-radius:0.6vmax;overflow:hidden;border:none;background:#faf7f3;display:flex;align-items:center;justify-content:center\"><img src=\"__konte:reference:mangaWhale__\" alt=\"\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover\" data-start=\"0\" data-duration=\"1\" /></div></div><div style=\"background:#fff;border-radius:1vmax;padding:1.2vmax;box-shadow:0 0.3vmax 1.2vmax rgba(80,60,40,.08)\"><div style=\"font-size:1.15vmax;font-weight:800;color:#8a8178;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.7vmax\">Prompt</div><div style=\"min-height:4.6vmax;font-size:1.35vmax;line-height:1.4;color:#2f2a26;font-weight:600\">The paper whale swims over the rainy town.</div></div><div style=\"height:4vmax;border-radius:2vmax;background:linear-gradient(90deg, #ff8a4c, #ff6f61);color:#fff;font-size:1.5vmax;font-weight:800;display:flex;align-items:center;justify-content:center\">Generate</div></div><div style=\"position:absolute;left:34.8vmax;right:2.4vmax;top:6.4vmax;background:#fff;border-radius:1vmax;padding:0.8vmax;box-shadow:0 0.3vmax 1.2vmax rgba(80,60,40,.08)\"><div style=\"position:relative;aspect-ratio:16 / 9;border-radius:0.6vmax;overflow:hidden;background:#2f2a26;display:flex;align-items:center;justify-content:center\"><img src=\"__konte:reference:filmPanelKind__\" alt=\"\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover\" data-start=\"0\" data-duration=\"1\" /><div style=\"position:absolute;left:1.2vmax;right:1.2vmax;bottom:1vmax;height:0.4vmax;border-radius:0.2vmax;background:rgba(255,255,255,.35)\"><div class=\"site-play\" style=\"width:35%;height:100%;border-radius:0.2vmax;background:#fff\"></div></div></div></div><div style=\"position:absolute;left:0;right:0;bottom:0;height:15.6vmax;background:#fff;border-top:0.1vmax solid #ebe4da;padding:1.2vmax 2.4vmax\"><div style=\"font-size:1.15vmax;font-weight:800;color:#8a8178;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.7vmax\">Timeline · 1 clips</div><div style=\"display:flex;gap:1.2vmax\"><div style=\"display:flex;flex-direction:column;gap:0.5vmax\"><div style=\"position:relative;width:17.6vmax;aspect-ratio:16 / 9;overflow:hidden;border-radius:0.6vmax;border:0.2vmax solid #f1ece4\"><img src=\"__konte:reference:filmPanelKind__\" alt=\"\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:45% 42%;transform:scale(2.6)\" data-start=\"0\" data-duration=\"1\" /></div><span style=\"font-size:1.15vmax;font-weight:700;color:#6b6560\">clip_01.mp4</span></div></div></div></div>",
+    "width": 2496,
+    "height": 1408,
+    "typography": {
+      "lang": "en",
+      "fonts": [
+        "Nunito"
+      ]
+    },
+    "refs": [
+      "__konte:reference:mangaWhale__",
+      "__konte:reference:filmPanelKind__"
+    ]
+  },
+  "deterministic": true
+}

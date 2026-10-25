@@ -1,0 +1,98 @@
+{
+  "kind": "comfy",
+  "workflow": "video_minimax_h3_r2v.json",
+  "inputs": {
+    "137.image": "__konte:animatic:shot.38.key__",
+    "136.prompt": "subject_definitions: <Picture 1> is the keyframe of [Shot 1]: the darkened school auditorium seen from the back, rows of silhouetted students, the glowing screen showing a painted paper whale over rainy rooftops.\n\nsummary: [keyframe completion] In the dark auditorium, the paper whale on the screen swims over the rainy town while the audience sits still.\n\nretention_analysis: <Picture 1> ([Shot 1] keyframe): partially_preserved - the framing, the set, the light, the line and the colours hold through the whole shot; its pose is the moment the motion passes through, as the description writes it.\n\ndetailed_description: 2D-animated. A modern flat-colour anime illustration with bold, clean dark outlines of even weight, bright flat cel colours and one simple step of soft lavender shading. [Shot 1] The shot's keyframe corresponds to <Picture 1>, whose framing, set and light hold from the first frame to the last. On the screen the painted film plays: the cream paper whale swims slowly toward the left over the slate-blue rainy rooftops, its folded fins tilting gently, fine rain falling across the painted picture. The audience sits still. The light in the auditorium stays constant through the whole shot. The camera holds a static shot. Through every frame the picture keeps the look of <Picture 1>: the same bold, clean dark outlines of even weight, the same bright flat cel colours with one simple step of soft shading, the same palette and light, drawn as hand-animated 2D anime with crisp, steady line work.\n\noverall_soundscape: A hushed auditorium, the soft whir of a projector, and the faint sound of rain playing from the film on the screen.\n\nnon_diegetic_music: N/A",
+    "136.width": 1248,
+    "136.height": 704,
+    "136.length": 90,
+    "136.ref_image_size": "max",
+    "129.noise_seed": "__konte:seed__",
+    "143.value": 20,
+    "146.value": false,
+    "130.fps": 24,
+    "127.unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "128.clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "119.vae_name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "120.vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+    "145.lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+  },
+  "prunedNodes": [
+    "139",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154",
+    "155",
+    "156",
+    "157",
+    "158",
+    "159",
+    "169",
+    "170",
+    "171",
+    "160",
+    "161",
+    "162",
+    "163",
+    "164",
+    "165",
+    "166",
+    "167",
+    "168"
+  ],
+  "prunedPassThroughs": {
+    "164": "positive",
+    "166": "positive",
+    "168": "positive"
+  },
+  "models": [
+    {
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+    },
+    {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    },
+    {
+      "filename": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "type": "lora",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "137.image": "image1",
+    "136.prompt": "prompt",
+    "136.width": "width",
+    "136.height": "height",
+    "136.length": "length",
+    "136.ref_image_size": "refImageSize",
+    "129.noise_seed": "seed",
+    "143.value": "steps",
+    "146.value": "useTurbo",
+    "130.fps": "fps",
+    "127.unet_name": "unetName",
+    "128.clip_name": "clipName",
+    "119.vae_name": "vaeName",
+    "120.vae_name": "audioVaeName",
+    "145.lora_name": "loraName"
+  }
+}

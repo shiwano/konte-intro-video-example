@@ -1,0 +1,641 @@
+{
+  "mode": "animatic-preview",
+  "stage": "animatic",
+  "createdAt": "2000-01-01T00:16:16.000Z",
+  "context": {
+    "shots": [
+      {
+        "shotId": "01",
+        "start": 0,
+        "duration": 3,
+        "variants": {
+          "key": "v-vRxWGW2Z"
+        },
+        "takes": {
+          "animatic:shot.01.key": "v-vRxWGW2Z"
+        }
+      },
+      {
+        "shotId": "02",
+        "start": 3,
+        "duration": 2.5,
+        "variants": {
+          "key": "v-ZEzC3kvd",
+          "line": "v-hDX2z0NZ"
+        },
+        "takes": {
+          "animatic:shot.02.key": "v-ZEzC3kvd",
+          "animatic:shot.02.line": "v-hDX2z0NZ"
+        }
+      },
+      {
+        "shotId": "03",
+        "start": 5.5,
+        "duration": 3.5,
+        "variants": {
+          "key": "v-jSLj5xpn",
+          "line": "v-GyQRJSFQ"
+        },
+        "takes": {
+          "animatic:shot.03.key": "v-jSLj5xpn",
+          "animatic:shot.03.line": "v-GyQRJSFQ"
+        }
+      },
+      {
+        "shotId": "04",
+        "start": 9,
+        "duration": 2,
+        "variants": {
+          "key": "v-cGjxtyya"
+        },
+        "takes": {
+          "animatic:shot.04.key": "v-cGjxtyya"
+        }
+      },
+      {
+        "shotId": "n01",
+        "start": 11,
+        "duration": 1.5,
+        "variants": {
+          "key": "v-r774MAog"
+        },
+        "takes": {
+          "animatic:shot.n01.key": "v-r774MAog"
+        }
+      },
+      {
+        "shotId": "n02",
+        "start": 12.5,
+        "duration": 2,
+        "variants": {
+          "screen": "v-D60AvXfF",
+          "screenNext": "v-GqI4qI9N"
+        },
+        "takes": {
+          "animatic:shot.n02.screen": "v-D60AvXfF",
+          "animatic:shot.n02.screenNext": "v-GqI4qI9N"
+        }
+      },
+      {
+        "shotId": "n03",
+        "start": 14.5,
+        "duration": 1.5,
+        "variants": {
+          "screen": "v-n4FFNGjC"
+        },
+        "takes": {
+          "animatic:shot.n03.screen": "v-n4FFNGjC"
+        }
+      },
+      {
+        "shotId": "n04",
+        "start": 16,
+        "duration": 2,
+        "variants": {
+          "key": "v-RNCs7pdr",
+          "line": "v-4veRReqz"
+        },
+        "takes": {
+          "animatic:shot.n04.key": "v-RNCs7pdr",
+          "animatic:shot.n04.line": "v-4veRReqz"
+        }
+      },
+      {
+        "shotId": "n05",
+        "start": 18,
+        "duration": 2.5,
+        "variants": {
+          "screen": "v-jZczCHad",
+          "screenNext": "v-pazwOZdp",
+          "screen3": "v-oqbtJSnU"
+        },
+        "takes": {
+          "animatic:shot.n05.screen": "v-jZczCHad",
+          "animatic:shot.n05.screenNext": "v-pazwOZdp",
+          "animatic:shot.n05.screen3": "v-oqbtJSnU"
+        }
+      },
+      {
+        "shotId": "n06",
+        "start": 20.5,
+        "duration": 2,
+        "variants": {
+          "key": "v-Y2dS8cjy",
+          "line": "v-1RjZtHUs"
+        },
+        "takes": {
+          "animatic:shot.n06.key": "v-Y2dS8cjy",
+          "animatic:shot.n06.line": "v-1RjZtHUs"
+        }
+      },
+      {
+        "shotId": "n07",
+        "start": 22.5,
+        "duration": 2,
+        "variants": {
+          "screen": "v-WMbBo3g8",
+          "screenNext": "v-dJiP8sX3",
+          "screen3": "v-AQygG6pV",
+          "screen4": "v-kLgwQJdn"
+        },
+        "takes": {
+          "animatic:shot.n07.screen": "v-WMbBo3g8",
+          "animatic:shot.n07.screenNext": "v-dJiP8sX3",
+          "animatic:shot.n07.screen3": "v-AQygG6pV",
+          "animatic:shot.n07.screen4": "v-kLgwQJdn"
+        }
+      },
+      {
+        "shotId": "07a",
+        "start": 24.5,
+        "duration": 1,
+        "variants": {
+          "key": "v-IPoiguTk"
+        },
+        "takes": {
+          "animatic:shot.07a.key": "v-IPoiguTk"
+        }
+      },
+      {
+        "shotId": "n08",
+        "start": 25.5,
+        "duration": 3,
+        "variants": {
+          "key": "v-3sGhAmq5",
+          "line": "v-sgxOduik"
+        },
+        "takes": {
+          "animatic:shot.n08.key": "v-3sGhAmq5",
+          "animatic:shot.n08.line": "v-sgxOduik"
+        }
+      },
+      {
+        "shotId": "n09",
+        "start": 28.5,
+        "duration": 2.5,
+        "variants": {
+          "screen": "v-MjZCIX8c",
+          "line": "v-JxQnxWer"
+        },
+        "takes": {
+          "animatic:shot.n09.screen": "v-MjZCIX8c",
+          "animatic:shot.n09.line": "v-JxQnxWer"
+        }
+      },
+      {
+        "shotId": "n10",
+        "start": 31,
+        "duration": 2,
+        "variants": {
+          "key": "v-r5oPWwJ1",
+          "line": "v-9ovFe9pH"
+        },
+        "takes": {
+          "animatic:shot.n10.key": "v-r5oPWwJ1",
+          "animatic:shot.n10.line": "v-9ovFe9pH"
+        }
+      },
+      {
+        "shotId": "16",
+        "start": 33,
+        "duration": 4,
+        "variants": {
+          "key": "v-hykQ3HA2",
+          "line": "v-PPGAGH1f"
+        },
+        "takes": {
+          "animatic:shot.16.key": "v-hykQ3HA2",
+          "animatic:shot.16.line": "v-PPGAGH1f"
+        }
+      },
+      {
+        "shotId": "17",
+        "start": 37,
+        "duration": 4,
+        "variants": {},
+        "takes": {
+          "reference:mangaRain": "v-rQxeskqv",
+          "reference:mangaGirl": "v-RPqnj8yL",
+          "reference:mangaWhale": "v-SMPMHLkc",
+          "reference:mangaHarbour": "v-QiTzXuAe"
+        }
+      },
+      {
+        "shotId": "18",
+        "start": 41,
+        "duration": 3,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "19",
+        "start": 44,
+        "duration": 3,
+        "variants": {
+          "key": "v-NX1gSOhf",
+          "line": "v-OdryZ9HH"
+        },
+        "takes": {
+          "animatic:shot.19.key": "v-NX1gSOhf",
+          "animatic:shot.19.line": "v-OdryZ9HH"
+        }
+      },
+      {
+        "shotId": "20",
+        "start": 47,
+        "duration": 3.5,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "21",
+        "start": 50.5,
+        "duration": 2,
+        "variants": {
+          "screen": "v-RH4aYvyE",
+          "screenNext": "v-o0rk7iJc"
+        },
+        "takes": {
+          "animatic:shot.21.screen": "v-RH4aYvyE",
+          "animatic:shot.21.screenNext": "v-o0rk7iJc"
+        }
+      },
+      {
+        "shotId": "22",
+        "start": 52.5,
+        "duration": 1.5,
+        "variants": {
+          "screen": "v-qkMeZgqp",
+          "screenPasted": "v-49HPrG8d"
+        },
+        "takes": {
+          "animatic:shot.22.screen": "v-qkMeZgqp",
+          "animatic:shot.22.screenPasted": "v-49HPrG8d"
+        }
+      },
+      {
+        "shotId": "23",
+        "start": 54,
+        "duration": 4.5,
+        "variants": {},
+        "takes": {
+          "reference:paperWhale": "v-LIEvgXQQ",
+          "reference:filmGirl": "v-ZYgBmu1y",
+          "reference:filmTown": "v-t1PqpuoR"
+        }
+      },
+      {
+        "shotId": "24",
+        "start": 58.5,
+        "duration": 2,
+        "variants": {
+          "key": "v-XLMcEjiF",
+          "line": "v-EXOWd52P"
+        },
+        "takes": {
+          "animatic:shot.24.key": "v-XLMcEjiF",
+          "animatic:shot.24.line": "v-EXOWd52P"
+        }
+      },
+      {
+        "shotId": "25",
+        "start": 60.5,
+        "duration": 3,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "26",
+        "start": 63.5,
+        "duration": 3.5,
+        "variants": {
+          "key": "v-vusyW8yn",
+          "screen": "v-aFt07yPr",
+          "screenNext": "v-1dzhaWA8",
+          "line": "v-YH9U8jNX"
+        },
+        "takes": {
+          "animatic:shot.26.screen": "v-aFt07yPr",
+          "animatic:shot.26.screenNext": "v-1dzhaWA8",
+          "animatic:shot.26.key": "v-vusyW8yn",
+          "animatic:shot.26.line": "v-YH9U8jNX"
+        }
+      },
+      {
+        "shotId": "26a",
+        "start": 67,
+        "duration": 2,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "26b",
+        "start": 69,
+        "duration": 2,
+        "variants": {
+          "screen": "v-y5yMpAyu",
+          "screenNext": "v-F83I86qy"
+        },
+        "takes": {
+          "animatic:shot.26b.screen": "v-y5yMpAyu",
+          "animatic:shot.26b.screenNext": "v-F83I86qy"
+        }
+      },
+      {
+        "shotId": "26c",
+        "start": 71,
+        "duration": 1,
+        "variants": {
+          "key": "v-lFsxV5Uw"
+        },
+        "takes": {
+          "animatic:shot.26c.key": "v-lFsxV5Uw"
+        }
+      },
+      {
+        "shotId": "27",
+        "start": 72,
+        "duration": 4,
+        "variants": {
+          "screenTyped1": "v-8NTC73ZV",
+          "screenTyped2": "v-miCg5UME",
+          "screenTyped3": "v-MNNbCh0W",
+          "screenTyped4": "v-nJDDnVIY",
+          "screenTyped5": "v-DQrVGScW",
+          "screen": "v-utDS2bZb",
+          "screenPinned": "v-X8P5hVuj",
+          "screenDraft": "v-hQp4coRV",
+          "line": "v-S9iw3dR0"
+        },
+        "takes": {
+          "animatic:shot.27.screen": "v-utDS2bZb",
+          "animatic:shot.27.screenPinned": "v-X8P5hVuj",
+          "animatic:shot.27.screenTyped1": "v-8NTC73ZV",
+          "animatic:shot.27.screenTyped2": "v-miCg5UME",
+          "animatic:shot.27.screenTyped3": "v-MNNbCh0W",
+          "animatic:shot.27.screenTyped4": "v-nJDDnVIY",
+          "animatic:shot.27.screenTyped5": "v-DQrVGScW",
+          "animatic:shot.27.screenDraft": "v-hQp4coRV",
+          "animatic:shot.27.line": "v-S9iw3dR0"
+        }
+      },
+      {
+        "shotId": "27a",
+        "start": 76,
+        "duration": 3.5,
+        "variants": {},
+        "takes": {
+          "reference:filmPanelKind": "v-FezMXYSZ",
+          "reference:filmPanel": "v-kym4qWRc"
+        }
+      },
+      {
+        "shotId": "28",
+        "start": 79.5,
+        "duration": 2.5,
+        "variants": {
+          "screen": "v-KQLwgCkU"
+        },
+        "takes": {
+          "animatic:shot.28.screen": "v-KQLwgCkU"
+        }
+      },
+      {
+        "shotId": "29",
+        "start": 82,
+        "duration": 2.5,
+        "variants": {
+          "key": "v-XyLcUvpp",
+          "line": "v-oXiZakfX"
+        },
+        "takes": {
+          "animatic:shot.29.key": "v-XyLcUvpp",
+          "animatic:shot.29.line": "v-oXiZakfX"
+        }
+      },
+      {
+        "shotId": "30",
+        "start": 84.5,
+        "duration": 4,
+        "variants": {
+          "screen21": "v-BZKutXfS",
+          "screenNext": "v-HMNgNYvg",
+          "screen72": "v-lBvmBOIx",
+          "screen80": "v-wUJ8SYFq"
+        },
+        "takes": {
+          "animatic:shot.28.screen": "v-KQLwgCkU",
+          "animatic:shot.30.screen21": "v-BZKutXfS",
+          "animatic:shot.30.screenNext": "v-HMNgNYvg",
+          "animatic:shot.30.screen72": "v-lBvmBOIx",
+          "animatic:shot.30.screen80": "v-wUJ8SYFq"
+        }
+      },
+      {
+        "shotId": "35",
+        "start": 88.5,
+        "duration": 3,
+        "variants": {
+          "key": "v-tEshOqNP",
+          "line": "v-MJxmHNCG"
+        },
+        "takes": {
+          "animatic:shot.35.key": "v-tEshOqNP",
+          "animatic:shot.35.line": "v-MJxmHNCG"
+        }
+      },
+      {
+        "shotId": "35b",
+        "start": 91.5,
+        "duration": 3,
+        "variants": {},
+        "takes": {
+          "reference:filmLastKind": "v-xeYu9rgU",
+          "reference:filmLastSmall": "v-Z47pkDgH"
+        }
+      },
+      {
+        "shotId": "35a",
+        "start": 94.5,
+        "duration": 2,
+        "variants": {
+          "screen": "v-TMaome8A"
+        },
+        "takes": {
+          "animatic:shot.35a.screen": "v-TMaome8A"
+        }
+      },
+      {
+        "shotId": "32",
+        "start": 96.5,
+        "duration": 1.5,
+        "variants": {
+          "key": "v-FCtT63xE"
+        },
+        "takes": {
+          "animatic:shot.32.key": "v-FCtT63xE"
+        }
+      },
+      {
+        "shotId": "33",
+        "start": 98,
+        "duration": 2.5,
+        "variants": {
+          "key": "v-Ou6ojWV0"
+        },
+        "takes": {
+          "animatic:shot.33.key": "v-Ou6ojWV0"
+        }
+      },
+      {
+        "shotId": "36",
+        "start": 100.5,
+        "duration": 2.5,
+        "variants": {
+          "screen": "v-WWTZkn5F",
+          "screenNext": "v-vP3Zl2v5"
+        },
+        "takes": {
+          "animatic:shot.36.screen": "v-WWTZkn5F",
+          "animatic:shot.36.screenNext": "v-vP3Zl2v5"
+        }
+      },
+      {
+        "shotId": "37",
+        "start": 103,
+        "duration": 3.5,
+        "variants": {},
+        "takes": {
+          "reference:filmLastKind": "v-xeYu9rgU"
+        }
+      },
+      {
+        "shotId": "37a",
+        "start": 106.5,
+        "duration": 2.5,
+        "variants": {},
+        "takes": {
+          "reference:campus": "v-cRv8jt9k"
+        }
+      },
+      {
+        "shotId": "38",
+        "start": 109,
+        "duration": 3.5,
+        "variants": {
+          "key": "v-fJy7rLap"
+        },
+        "takes": {
+          "animatic:shot.38.key": "v-fJy7rLap"
+        }
+      },
+      {
+        "shotId": "39",
+        "start": 112.5,
+        "duration": 3,
+        "variants": {},
+        "takes": {
+          "reference:filmPanelKind": "v-FezMXYSZ"
+        }
+      },
+      {
+        "shotId": "41",
+        "start": 115.5,
+        "duration": 4,
+        "variants": {
+          "key": "v-D4e1XQm9"
+        },
+        "takes": {
+          "animatic:shot.41.key": "v-D4e1XQm9"
+        }
+      }
+    ],
+    "timeline": {
+      "konteIcon": "v-aNBgfyhE"
+    },
+    "timelineSources": {},
+    "contentHashes": {
+      "animatic:shot.01#composition": "a8eb2c62d2cc49f92cfcb52b1f51d7e44b92aeadcc02d765e1124603058e2e7f",
+      "animatic:shot.02#composition": "c528004bedc9c927715bb6dbb4f45aa78c1b59066e30ff5b671526af26740fd6",
+      "animatic:shot.03#composition": "52e682d42ad0d7367c666abc9a5bc95a638a51b042484f7465c98219a9658d43",
+      "animatic:shot.04#composition": "e0dfee8fa5cbc93ec8007a488d715599434ba6a5cdace11354a66e294771b9dc",
+      "animatic:shot.n01#composition": "bd19ca60b13aee84fa7d354cf017f136f82b7d70f3526433a134c6ee7cdf44a3",
+      "animatic:shot.n02#composition": "58227dd12c2132f4049cd0e0b6c8a7733d8f4a1b0b6b35a3610691044101150c",
+      "animatic:shot.n03#composition": "87a712ea9052c7459ab04b0a0299eef086aa9e871453612e574f3dc8db9acac7",
+      "animatic:shot.n04#composition": "5a9bcbbd017f32f732a061bfc01d4b0311e759dfed29f3144429173e95901595",
+      "animatic:shot.n05#composition": "816f6d8a9bc8452fc867797bcabcebbe312fcf176c44f4f7c22c98d27e498d94",
+      "animatic:shot.n06#composition": "542921c2e9d074c413ffe4880832ed8c4ac1daacc015ab25e48d39d5750cd02f",
+      "animatic:shot.n07#composition": "8b20baf0b65eb66d28c09ec078e257b5b7d1c8839553ba004b3c4e9c80826d5e",
+      "animatic:shot.07a#composition": "5f5c3791233133fae79976e73c3d8ad9fb68d5dc0b47fe6799a54cf0306f8af3",
+      "animatic:shot.n08#composition": "f65aa31bd24a9c38925a828713c2e04bb619ace802bff3d9aa205300cc51484d",
+      "animatic:shot.n09#composition": "cb6ff5d83cc8b7fc3b91b40a8ecaf3b25abba33f6fff30d744657a141acb6556",
+      "animatic:shot.n10#composition": "0453ce8202a4eda4a8aa0e0f54d1d69a8c35055183673fdcbd4a727fffd77963",
+      "animatic:shot.16#composition": "55447af0e4020b8aa9093b41b01e0c1e28fbf449b13a8c7bc1f59faff5e91840",
+      "animatic:shot.17#composition": "4287c198aa04667c754a3f0a7b3e770d4bca4a7c3950ecdaa6d6659fdab57312",
+      "animatic:shot.18#composition": "916b3530c5a4b996c8b0d87753a26e6c141238585358d570d0fe2f9b365f707b",
+      "animatic:shot.19#composition": "a5709cb170d7e6faf357b370a2184fcf1abb2af9d5a008daad44287530c90e32",
+      "animatic:shot.20#composition": "3e49455ac3255112fd5c7516f1559e340481735886d0333df8c52ae2a6d402e6",
+      "animatic:shot.21#composition": "4c1a278e10014ed3a6565a055cc2991ae219736067dcc83e0dff70368e0d5d6e",
+      "animatic:shot.22#composition": "6cb1bf01097b41ba399100293c196d30cf894e3859ee161891ee615b8767b4b3",
+      "animatic:shot.23#composition": "75e8f18d2e59d4319117e1d32ba349c2b0161c71e4e1e398a9bb385746e4ef6b",
+      "animatic:shot.24#composition": "2ceefd7784e2553cabb2caad6202f03ca60716d897e5de01eb6f71397834acd6",
+      "animatic:shot.25#composition": "fed07481c82e480a317fb8839fc9a309c29808223b2f173f230a2cc7169d4f06",
+      "animatic:shot.26#composition": "c36671cd5ac9bc7f25d4d09e664812eac88bc33944961b3a7853dcff76ad8ff8",
+      "animatic:shot.26a#composition": "353a74f9254b83ebb1bcec10f492663d0a2e39010b81707b7661702c46f34d40",
+      "animatic:shot.26b#composition": "3040188d849e31cd7511323c4416a7f4ae4ff6d30919f0580b3b784bc1e01895",
+      "animatic:shot.26c#composition": "fd6e834134644f543b5afafba0b6f343c17e41fb258f87ed90954b2c256351f6",
+      "animatic:shot.27#composition": "3a50d50cf8446ae4ddb962cc93b17ea309814c5a32dfe788c5ffda0c9788845d",
+      "animatic:shot.27a#composition": "923ae285601b0132484bbeee119f3d46a0686c8d823c7d4c18fc2c005a5ef639",
+      "animatic:shot.28#composition": "104312164d591a3eb30d31636b8ae1c0906672e31d0b1142812be3359fd66291",
+      "animatic:shot.29#composition": "949c7f9d558ba2ff94a5348904d16328130b96eda84129d138c9255508d394b7",
+      "animatic:shot.30#composition": "daf931f1a0d713f3cf5dfdba73b6defe31b74006b60b8bf4a72001d39758f9d9",
+      "animatic:shot.35#composition": "cd6a427d0ab744bc26a8d25a07d860362c4f0dcc4f7ffa241b37e9be9e32dea5",
+      "animatic:shot.35b#composition": "ad9b419bc8275e1f04eb1a719b62de5e349d0578aee04fddee54dfb34d5d6a53",
+      "animatic:shot.35a#composition": "dca3b636e252d26d4cd0682ba7d012c1534d9e2f6257965770d1a8d795e9bb78",
+      "animatic:shot.32#composition": "ec534b33799878ddd8e563bbfb4ed80babebb67055e4d5a2d7d511056c848b59",
+      "animatic:shot.33#composition": "56d0eebe3827a02f23e1ad2e67033be63035fc14fc09c865dacb41da4caf9efa",
+      "animatic:shot.36#composition": "f8f91b9bda8b75b1cdbd83de02952d8de8c03c803f2177b80edc272ddab57907",
+      "animatic:shot.37#composition": "327de2ca5e27334fca408bf5f804f1f70625fe58dccc1d7ef198d4ab42063f26",
+      "animatic:shot.37a#composition": "9303e87a5588ddb3aae2911ad9134957f8db1acf7ac4c836cf01ec0ea3e29d26",
+      "animatic:shot.38#composition": "08ce5878cda5fe8f2c83c85faaf1f33396ea26c7ddefecb8fefd2a6ee0e9b4a4",
+      "animatic:shot.39#composition": "5fbb9eacd5c6f4a590c07b2527189b552c7b17693bfa2f79cc5c05b04f0f267d",
+      "animatic:shot.41#composition": "1c8f0e0b3e6e11d79e878ec75f830c6846b9ced24632151d88b3634f452efbcb",
+      "animatic:shot.02#stem": "0efe14f9187cd0a62b7b49d493ee0dea6b3d169f30bf5c8e2d56c58f2600e78f",
+      "animatic:shot.03#stem": "83332c25f082643b48165bff0c2d27a06c8088b1bc169a8d1a88e01c57d9a444",
+      "animatic:shot.n04#stem": "1e8e68e7475163a44a57be74e2690fa665593c31218b343f5983c03887b491e3",
+      "animatic:shot.n06#stem": "6e14e98cce9a57da1e374a1c5339784c7c23efa9341a93a24cce0643a36e3971",
+      "animatic:shot.n08#stem": "3bebda27b336bb3c202e26b3cc48b76ee0d9ed3f7206ac9d5578af003571b90f",
+      "animatic:shot.n09#stem": "ace272c4848a1e80039fa43fb20e0f31c667b03f9e1857d2a3c19e99291ad20e",
+      "animatic:shot.n10#stem": "212b2cdc2b27207affc34e69cd5ee64a19e4d69461717dd7dfab96db24525bfe",
+      "animatic:shot.16#stem": "341d3382d19a55c2d194ccc73cd0b0524cde2c96604c0db4016b411128b8cb76",
+      "animatic:shot.19#stem": "f073a4bb08eee4f566bc1a2e1b7b960f8b4b0edaa60719436b5c2f6b975bf3c4",
+      "animatic:shot.24#stem": "ff6cc8ebcd686c2520e649d0fa72103543cc427b0f750536c334e1eb8aaa8636",
+      "animatic:shot.26#stem": "dcd2b0f6039edf5c17b135d751f83ef179d91ff957c95949d4d7fcfde226ffa5",
+      "animatic:shot.27#stem": "740bfe02a0d7cf5c15b4df5b81b29eb7d41ca915224434f016f02198fa70ee0c",
+      "animatic:shot.29#stem": "b611ac168d9a9b0d179573f28a5076773e8965ac8adaf205b4d95fa6c7f70b68",
+      "animatic:shot.35#stem": "9a79bd199dbb19856d8ca766214bda760012186e332fe41fafa245237a36a03a"
+    }
+  },
+  "decisions": {
+    "26": "accepted"
+  },
+  "cascadeAccepted": [
+    {
+      "address": "animatic:shot.26#stem",
+      "via": "animatic:shot.26"
+    },
+    {
+      "address": "animatic:shot.26#composition",
+      "via": "animatic:shot.26"
+    }
+  ],
+  "handoffId": "20000101T001615000",
+  "handoffSummary": "konte更新に伴い、ショット26の画面画像が更新されて採用が古い扱いになりました。見た目を確認して、問題なければ採用し直してください",
+  "handoffNotes": [
+    {
+      "address": "animatic:shot.26",
+      "text": "画面画像（今の画面・次の画面）が更新されたため再確認をお願いします。こちらでは何も描き直していません"
+    }
+  ]
+}
+

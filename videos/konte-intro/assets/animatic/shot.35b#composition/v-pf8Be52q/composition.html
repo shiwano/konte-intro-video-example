@@ -1,0 +1,124 @@
+<div id="stage"><div class="cc"><style>
+.cc{position:absolute;inset:0;background:#141413;color:#e8e6dc;font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;font-size:1.85vmax;line-height:1.5;padding:2.2vmax 2.6vmax;overflow:hidden;}
+.cc-bar{position:absolute;left:0;right:0;top:0;height:2.2vmax;background:#262624;display:flex;align-items:center;gap:.55vmax;padding:0 1vmax;}
+.cc-dot{width:.75vmax;height:.75vmax;border-radius:50%;}
+.cc-title{flex:1;text-align:center;color:#8f8d85;font-size:1vmax;margin-right:3vmax;}
+.cc-body{position:absolute;left:2.6vmax;right:2.6vmax;top:4.4vmax;display:flex;flex-direction:column;}
+.cc-banner{display:flex;gap:1.4vmax;align-items:center;margin-bottom:1.4vmax;}
+.cc-logo{display:block;width:5.4em;height:3.45em;}
+.cc-banner-text{display:flex;flex-direction:column;}
+.cc-dim{color:#8f8d85;}
+.cc-orange{color:#d97757;}
+.cc-green{color:#7fb77e;}
+.cc-red{color:#e5786d;}
+.cc-violet{color:#a99fff;}
+.cc-bold{font-weight:700;}
+.cc-line{white-space:pre-wrap;min-height:1.55em;}
+.cc-stream{display:block;}
+.cc-user{background:#262624;border-radius:.3vmax;padding:.15vmax .6vmax;margin:.5vmax 0;}
+.cc-tool::before{content:"● ";color:#7fb77e;}
+.cc-say::before{content:"● ";color:#e8e6dc;}
+.cc-out{padding-left:2.1ch;color:#b8b6ad;}
+.cc-out::before{content:"⎿  ";color:#8f8d85;}
+.cc-cont{padding-left:5.1ch;color:#b8b6ad;}
+.cc-choice{border:1px solid #3a3a37;border-radius:.4vmax;padding:.8vmax 1vmax;margin:.6vmax 0;display:flex;flex-direction:column;gap:.2vmax;}
+.cc-opt{padding-left:1ch;}
+.cc-opt.sel{color:#a99fff;}
+.cc-prompt{border-top:1px solid #3a3a37;border-bottom:1px solid #3a3a37;padding:.45vmax .4vmax;margin-top:1vmax;}
+.cc-prompt::before{content:"❯ ";color:#8f8d85;}
+.cc-caret{display:inline-block;width:.6em;height:1.1em;vertical-align:-.15em;background:#e8e6dc;margin-left:.1em;}
+.cc-status{color:#8f8d85;font-size:1.4vmax;padding:.3vmax .4vmax 0;}
+</style><div class="cc-bar"><div class="cc-dot" style="background:#ed6a5e"></div><div class="cc-dot" style="background:#f5bf4f"></div><div class="cc-dot" style="background:#62c554"></div><div class="cc-title">~/films/paper-whale — claude</div></div><div class="cc-body"><div class="cc-line cc-out">Video Review: submitted</div><div class="cc-line cc-out cc-reveal" data-at="0.15">video:shot.80 Bigger! She should fill the sky!</div><div class="cc-line cc-say cc-reveal cc-stream" data-at="0.7">On it — rerolling only shot 80; the other 79 stay accepted.</div><div class="cc-line cc-tool cc-reveal" data-at="1.4">Bash(konte reroll video:shot.80.motion &amp;&amp; konte job wait)</div><div class="cc-line cc-out cc-reveal" data-at="2.2">1 job(s) settled: 1 completed (2:51)</div></div></div><script>(function () {
+window.__timelines = window.__timelines || {};
+var shotTl = window.__timelines["shot-35b"];
+if (!shotTl) {
+  shotTl = gsap.timeline({ paused: true });
+  window.__timelines["shot-35b"] = shotTl;
+}
+var tl = gsap.timeline();
+shotTl.add(tl, 0);
+var split = function (selector, options) {
+  var result = SplitText.create(document.querySelectorAll(selector), options);
+  return { chars: result.chars, words: result.words };
+};
+try {
+(({ timeline, split }) => {
+  let seed = 7;
+  const rand = () => {
+    seed = seed * 16807 % 2147483647;
+    return seed / 2147483647;
+  };
+  let cursor = 0;
+  document.querySelectorAll(".cc-reveal").forEach((el, i) => {
+    const start = Math.max(Number(el.dataset.at), cursor);
+    timeline.from(el, { opacity: 0, height: 0, duration: 0.08, ease: "power2.out" }, start);
+    cursor = start;
+    if (!el.classList.contains("cc-stream"))
+      return;
+    el.id = el.id || `cc-stream-${i}`;
+    const words = split(`#${el.id}`, { type: "words" }).words;
+    let t = start + 0.06;
+    for (let w = 0;w < words.length; ) {
+      const n = 1 + Math.floor(rand() * 3);
+      timeline.from(words.slice(w, w + n), { opacity: 0, duration: 0.01 }, t);
+      w += n;
+      t += 0.04 + rand() * 0.05;
+    }
+    cursor = t + 0.05;
+  });
+  document.querySelectorAll(".cc-typed").forEach((el, i) => {
+    el.id = el.id || `cc-typed-${i}`;
+    const chars = split(`#${el.id}`, { type: "chars" }).chars, gaps = chars.map((c, k) => {
+      const prev = k > 0 ? chars[k - 1].textContent : "", pause = prev === " " ? 1.6 : /[.,!?\]]/.test(prev ?? "") ? 3.2 : 1;
+      return (0.45 + rand() * 1.1) * pause * (rand() < 0.06 ? 3.5 : 1);
+    }), total = gaps.reduce((a, g) => a + g, 0), scale = Number(el.dataset.dur) / total;
+    let t = Number(el.dataset.at);
+    chars.forEach((c, k) => {
+      t += gaps[k] * scale;
+      timeline.from(c, { display: "none", duration: 0.01 }, t);
+    });
+  });
+})({ timeline: tl, split: split });
+} catch (err) {
+  var msg = (err && err.message) ? err.message : String(err);
+  window.__konteAnimateErrors = window.__konteAnimateErrors || [];
+  window.__konteAnimateErrors.push({ shotId: "35b", message: msg });
+  console.error("[konte] <Animate> script threw in shot " + "35b" + ": " + msg +
+    " — every tween after the throw is missing. The script is serialized and run in the browser, so it cannot reference anything outside itself.");
+  var host=document.querySelector("[data-composition-id=\"shot-35b\"]");if(host&&host.tagName==="META")host=null;host=host||document.getElementById("stage")||document.body;if(host){var box=document.createElement("div");box.setAttribute("data-konte-animate-error","shot-35b");box.style.cssText="position:absolute;left:0;right:0;bottom:0;z-index:2147483647;background:#b00020;color:#fff;font:600 14px/1.4 ui-monospace,monospace;padding:10px 14px;white-space:pre-wrap;word-break:break-word;";box.textContent="konte: <Animate> script failed in "+"shot-35b"+"\n"+msg;host.appendChild(box);}
+}
+})();</script><div style="position:absolute;right:2.5vmax;top:0;bottom:0;width:24vmax;display:flex;flex-direction:column;justify-content:center;gap:1.2vmax"><div class="gen-0" style="position:relative;opacity:0;background:#1d1b22;padding:0.35vmax;border-radius:0.4vmax;box-shadow:0 0.6vmax 1.6vmax rgba(0,0,0,.5)"><div style="position:relative;aspect-ratio:16 / 9;overflow:hidden;border-radius:0.2vmax;background:#2a2733"><img src="konte://asset/reference/filmLastSmall/v-Z47pkDgH/ComfyUI_01976_.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.6) brightness(.45)" data-start="0" data-duration="3" /><div class="gen-img-0" style="position:absolute;inset:0;opacity:0"><img src="konte://asset/reference/filmLastKind/v-xeYu9rgU/ComfyUI_01975_.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover" data-start="0" data-duration="3" /></div><div style="position:absolute;left:0;right:0;bottom:0;height:0.45vmax;background:rgba(255,255,255,.12)"><div class="gen-bar-0" style="height:100%;background:#7c5cff;transform-origin:left;transform:scaleX(0)"></div></div></div><div style="display:flex;justify-content:space-between;align-items:center;gap:1vmax;padding:0.45vmax 0.3vmax 0.15vmax;font-size:1.15vmax;font-weight:700;white-space:nowrap"><span style="color:#e8e6f0">shot.80.motion</span><span style="position:relative"><span class="gen-wait-0" style="color:#a9a3c2">generating…</span><span class="gen-done-0" style="position:absolute;right:0;top:0;color:#5fd38a;opacity:0">✓ done</span></span></div></div></div><script>(function () {
+window.__timelines = window.__timelines || {};
+var shotTl = window.__timelines["shot-35b"];
+if (!shotTl) {
+  shotTl = gsap.timeline({ paused: true });
+  window.__timelines["shot-35b"] = shotTl;
+}
+var tl = gsap.timeline();
+shotTl.add(tl, 0);
+var split = function (selector, options) {
+  var result = SplitText.create(document.querySelectorAll(selector), options);
+  return { chars: result.chars, words: result.words };
+};
+try {
+(({ timeline, data }) => {
+          data.items.forEach((it, i) => {
+            timeline.set(`.gen-${i}`, { x: 60 }, 0);
+            timeline.to(`.gen-${i}`, { opacity: 1, x: 0, duration: 0.35, ease: "power3.out" }, it.start);
+            timeline.to(`.gen-bar-${i}`, { scaleX: 1, duration: it.at - it.start, ease: "power1.inOut" }, it.start);
+            timeline.to(`.gen-bar-${i}`, { opacity: 0, duration: 0.2 }, it.at);
+            timeline.fromTo(`.gen-img-${i}`, { opacity: 0, scale: 1.08 }, { opacity: 1, scale: 1, duration: 0.45, ease: "power2.out" }, it.at);
+            timeline.set(`.gen-wait-${i}`, { opacity: 0 }, it.at);
+            timeline.to(`.gen-done-${i}`, { opacity: 1, duration: 0.2 }, it.at);
+            timeline.fromTo(`.gen-play-${i}`, { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(1.8)" }, it.at + 0.1);
+          });
+        })({ timeline: tl, split: split, data: JSON.parse("{\"items\":[{\"start\":1.4,\"at\":2.2}]}") });
+} catch (err) {
+  var msg = (err && err.message) ? err.message : String(err);
+  window.__konteAnimateErrors = window.__konteAnimateErrors || [];
+  window.__konteAnimateErrors.push({ shotId: "35b", message: msg });
+  console.error("[konte] <Animate> script threw in shot " + "35b" + ": " + msg +
+    " — every tween after the throw is missing. The script is serialized and run in the browser, so it cannot reference anything outside itself.");
+  var host=document.querySelector("[data-composition-id=\"shot-35b\"]");if(host&&host.tagName==="META")host=null;host=host||document.getElementById("stage")||document.body;if(host){var box=document.createElement("div");box.setAttribute("data-konte-animate-error","shot-35b");box.style.cssText="position:absolute;left:0;right:0;bottom:0;z-index:2147483647;background:#b00020;color:#fff;font:600 14px/1.4 ui-monospace,monospace;padding:10px 14px;white-space:pre-wrap;word-break:break-word;";box.textContent="konte: <Animate> script failed in "+"shot-35b"+"\n"+msg;host.appendChild(box);}
+}
+})();</script></div><script>(function(){var g=window.gsap;if(!g||!g.timeline)return;window.__timelines=window.__timelines||{};var key="shot-35b";var tl=window.__timelines[key];if(!tl||typeof tl.set!=="function"){tl=g.timeline({paused:true});window.__timelines[key]=tl;}tl.set({},{},3);})()</script>

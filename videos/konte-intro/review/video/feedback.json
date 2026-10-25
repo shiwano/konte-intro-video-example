@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "feedback": {
+    "video:shot.n08": [
+      {
+        "id": "fb-uIcbEmWR",
+        "displayedVariants": {
+          "video:shot.n08.motion": "v-TjyFYlEn"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.n08#composition": "06520469d094",
+          "video:shot.n08#stem": "2776b7e55897"
+        },
+        "annotation": null,
+        "time": 25.5,
+        "shotTime": 0,
+        "text": "> Eighty shots... like this?\nこのセリフで困ってる感でてるかなあ？\nなんかもっと具体的な困ってるセリフにしたほうがいいんじゃないかなあ？ 意見を聞きたい。\nあとテンポ的にここもうちょっと長くしたい 0.5s とか足せる？",
+        "createdAt": "2000-01-01T00:10:21.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video:shot.32": [
+      {
+        "id": "fb-m1HEDWIo",
+        "displayedVariants": {
+          "video:shot.32.motion": "v-mgcX8i42",
+          "video:shot.32#composition": "v-TKkXPu3b"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.32#composition": "69c623f21f07",
+          "video:shot.32#stem": "94b1a519aeb9"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.121,
+          "y": 0.131
+        },
+        "time": 97,
+        "shotTime": 1,
+        "text": "ここ SUN じゃなくて、期日とかそういう表記にしたほうがわかりやすくないかな？どうだろう",
+        "createdAt": "2000-01-01T00:10:21.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video:shot.04": [
+      {
+        "id": "fb-rakub7vo",
+        "displayedVariants": {
+          "animatic:shot.04.key": "v-wBriiTxA",
+          "video:shot.04#composition": "v-8pA3AVMT"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.04#composition": "cdbe46f9c041"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.501,
+          "y": 0.302
+        },
+        "time": 9.866666666666667,
+        "shotTime": 0.8666666666666671,
+        "text": "目が黒くないのを黒くしたい",
+        "createdAt": "2000-01-01T00:11:46.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video:shot.n09": [
+      {
+        "id": "fb-54HMwNR5",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-8mEIZdXr",
+          "video:shot.n09#composition": "v-dUSmZU5e"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.n09#composition": "78f9e668535d"
+        },
+        "annotation": null,
+        "time": 28.5,
+        "shotTime": 0,
+        "text": "konte でソフトウェア開発のように動画制作を Claude Code に任せることができて楽だったよ\nみたいな感じの情報提供みたいな感じのコメントにしたいな",
+        "createdAt": "2000-01-01T00:15:28.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-cYl6401n",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-8mEIZdXr",
+          "video:shot.n09#composition": "v-dUSmZU5e"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.n09#composition": "78f9e668535d"
+        },
+        "annotation": null,
+        "time": 28.5,
+        "shotTime": 0,
+        "text": "で、ここで konte ちゃんの読み上げのセリフもほしいな（コメント通りじゃなくて自然な感じで）",
+        "createdAt": "2000-01-01T00:15:28.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video:shot.n02": [
+      {
+        "id": "fb-dGIxrZ27",
+        "displayedVariants": {
+          "animatic:shot.n02.screen": "v-D60AvXfF",
+          "animatic:shot.n02.screenNext": "v-GqI4qI9N",
+          "video:shot.n02#composition": "v-c0Czcj5t"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.n02#composition": "1f2bdc88c2fa"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.204,
+          "y": 0.62
+        },
+        "time": 13.666666666666666,
+        "shotTime": 1.166666666666666,
+        "text": "ここの prompt が太字なのが気になる。画面切り替わると太字じゃなく見える",
+        "createdAt": "2000-01-01T00:16:21.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video:shot.n05": [
+      {
+        "id": "fb-7gg6UDp5",
+        "displayedVariants": {
+          "animatic:shot.n05.screen": "v-jZczCHad",
+          "animatic:shot.n05.screenNext": "v-pazwOZdp",
+          "animatic:shot.n05.screen3": "v-oqbtJSnU",
+          "video:shot.n05#composition": "v-ZucGmDbB"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.n05#composition": "22fad7683141"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.2,
+          "y": 0.48
+        },
+        "time": 18.733333333333334,
+        "shotTime": 0.7333333333333343,
+        "text": "プロンプトが太字から普通の太さになって、改行位置も切り替わっているのがおかしい",
+        "createdAt": "2000-01-01T00:16:21.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video": [
+      {
+        "id": "fb-NafmxNzs",
+        "displayedVariants": {},
+        "annotation": null,
+        "text": "konte の更新で、全体的に字幕が上にくるようになってるから位置を調整して",
+        "createdAt": "2000-01-01T00:16:21.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "video:shot.26c": [
+      {
+        "id": "fb-5xMu1Lt6",
+        "displayedVariants": {
+          "video:shot.26c.motion": "v-PaGMTXSW",
+          "video:shot.26c#composition": "v-ptEJs17F"
+        },
+        "displayedDefinitionHashes": {
+          "video:shot.26c#composition": "cf4136db9edf",
+          "video:shot.26c#stem": "ce7ffea85105"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.084,
+          "y": 0.083
+        },
+        "text": "ここ画面左上に電灯があるのはおかしい",
+        "time": 71,
+        "shotTime": 0,
+        "createdAt": "2000-01-01T00:16:51.000Z",
+        "createdBy": "local"
+      }
+    ]
+  }
+}

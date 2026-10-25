@@ -1,0 +1,55 @@
+{
+  "kind": "comfy",
+  "workflow": "image_qwen_image_edit_2_1_inpaint.json",
+  "inputs": {
+    "470.image": "__konte:animatic:shot.26c.key__",
+    "489.value": 0,
+    "490.value": 0,
+    "491.value": 0.16,
+    "492.value": 0.2,
+    "485.prompt": "In <image1>, remove the round lavender desk-lamp base with its dark outline from the top-left corner; smooth white desktop in the same warm cream glow fills its place, continuous with the desk around it. Keep everything else unchanged.",
+    "485.negative_prompt": "desk lamp, lamp base, lamp shade, round object, dark outline",
+    "482.seed": "__konte:seed__",
+    "482.steps": 25,
+    "482.cfg": 4,
+    "477.unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+    "478.clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+    "479.vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "prunedNodes": [
+    "475",
+    "486"
+  ],
+  "models": [
+    {
+      "filename": "qwen_image_2.1_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/diffusion_models/qwen_image_2.1_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_8b_int8_convrot.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen_image_2.1_vae_bf16.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "470.image": "image1",
+    "489.value": "left",
+    "490.value": "top",
+    "491.value": "right",
+    "492.value": "bottom",
+    "485.prompt": "prompt",
+    "485.negative_prompt": "negativePrompt",
+    "482.seed": "seed",
+    "482.steps": "steps",
+    "482.cfg": "cfg",
+    "477.unet_name": "unetName",
+    "478.clip_name": "clipName",
+    "479.vae_name": "vaeName"
+  }
+}

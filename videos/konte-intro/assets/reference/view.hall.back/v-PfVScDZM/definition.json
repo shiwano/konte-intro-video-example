@@ -1,0 +1,41 @@
+{
+  "kind": "comfy",
+  "workflow": "image_krea2_turbo_t2i.json",
+  "inputs": {
+    "52.text": "Modern flat-colour anime illustration in the style of a cute mobile-game mascot key visual: bold, clean dark outlines of even weight, bright flat cel colours filled edge to edge, one simple step of soft lavender shading, crisp edges everywhere. A school auditorium darkened for a film screening, seen from the front of the room, from just below the glowing projection screen, at seated eye height, looking back over the audience. Rows of deep violet theatre seats with pale pink-violet tops face the camera and fill the lower two thirds of the picture, rising gently toward the back. In every seat a student sits facing the camera, looking up past it toward the screen, each one a soft, smooth dark violet silhouette with the face in shadow, the tops of their heads and their shoulders rimmed in soft warm white light from the screen behind the camera. Behind the last row, the dark back wall with a small projection booth window glowing near its top centre. Dark navy and deep violet walls fading into shadow at the sides. Deep navy, violet and warm white.",
+    "53.width": 2496,
+    "53.height": 1248,
+    "54.seed": "__konte:seed__",
+    "54.steps": 8,
+    "58.vae_name": "qwen_image_vae.safetensors",
+    "57.clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+    "56.unet_name": "krea2_turbo_int8_convrot.safetensors"
+  },
+  "models": [
+    {
+      "filename": "krea2_turbo_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/diffusion_models/krea2_turbo_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
+    },
+    {
+      "filename": "qwen_image_vae.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/vae/qwen_image_vae.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "52.text": "prompt",
+    "53.width": "width",
+    "53.height": "height",
+    "54.seed": "seed",
+    "54.steps": "steps",
+    "58.vae_name": "vaeName",
+    "57.clip_name": "clipName",
+    "56.unet_name": "unetName"
+  }
+}

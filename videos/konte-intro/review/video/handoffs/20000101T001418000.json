@@ -1,0 +1,38 @@
+{
+  "stage": "video",
+  "summary": "konte-demo の新しいレビュー画面・設定画面UIを取り込み、UIが映る8ショットの画面画像だけを作り直しました。ほかのショットは触っていません。",
+  "notes": [
+    {
+      "address": "video:shot.22",
+      "text": "設定画面のUIを最新版に差し替えました（画面画像のみ作り直し）"
+    },
+    {
+      "address": "video:shot.26",
+      "text": "リファレンスレビュー画面を最新UIに差し替えました。Acceptを押す位置は変わっていません"
+    },
+    {
+      "address": "video:shot.26b",
+      "text": "レビュー画面を最新UIに差し替えました"
+    },
+    {
+      "address": "video:shot.27",
+      "text": "レビュー画面を最新UIに差し替えました。フィードバック欄の見出しが「Takes」ボタン付きになっています"
+    },
+    {
+      "address": "video:shot.28",
+      "text": "レビュー画面を最新UIに差し替えました"
+    },
+    {
+      "address": "video:shot.30",
+      "text": "レビュー画面を最新UIに差し替えました"
+    },
+    {
+      "address": "video:shot.35a",
+      "text": "レビュー画面を最新UIに差し替えました"
+    },
+    {
+      "address": "video:shot.36",
+      "text": "レビュー画面を最新UIに差し替えました。Acceptを押す位置は変わっていません"
+    }
+  ]
+}

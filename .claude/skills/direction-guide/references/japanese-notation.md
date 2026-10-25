@@ -1,0 +1,27 @@
+# Japanese notation
+
+How a Japanese line must be written down so the model reads it aloud correctly — notation only, never the wording.
+
+## Standard orthography, always
+
+- Write every word the way it is normally written — 常用漢字 with ordinary okurigana (`交換`, `大昔`).
+- Never split a compound across kanji and kana (交ぜ書き: `交かん`, `大むかし`) — it breaks the accent and phrasing of the whole line.
+- Kana-fying for a young audience is a screen decision — keep `script[n].text` standard and put the easy notation on screen (`telop`, `<Subtitle>`).
+- 現代仮名遣い, never the pre-war forms — `ゐ`/`ゑ`/`せう` → `い`/`え`/`しょう`, the iteration marks `ゝ`/`〳〵` → the kana spelled out, large 拗促音 `ちよつと` → `ちょっと`.
+- Lengthen a vowel with `ー` — `おーい`, `ちょうだいよー`; the literary `おオい` is read as a second vowel.
+- Use full-width punctuation — `、。？！……` drive the pauses and intonation.
+
+## A word whose reading won't settle
+
+- Respell a wrong reading, never a wrong accent — kana does not move the accent or intonation. Reroll first; past that, the adapter's guide names what moves it.
+- A low-frequency word has no stable reading — an archaic or technical term (`和同開珎`), an irregular name (`日下部`, `十六夜`). Respell it before generating.
+- Suspect the same class of word before generating — counters and dates (`一日` ついたち/いちにち, `三本`, `一人`), words with two live readings (`人気`, `方`), personal and place names, and any numeral next to a unit.
+- Respell in katakana — `和同開珎` → `ワドウカイチン`, the whole word, no spaces. Katakana keeps the word boundary.
+- Never gloss a reading in parentheses — `祇園精舎（ギオンショウジャ）` is spoken twice over. Annotate a reading only in a syntax the adapter's guide gives for it.
+- Respell at the take: `respell(script.<who>[n], "…")` — returns the spelling and files it as standing for that line; the voiced check takes either form, and `direction.ts` keeps the notation the subtitle and review show. Two takes of one line may spell it differently.
+
+## Verifying
+
+- You cannot hear the take — only the human confirms a reading, at review. Name every respelled or rare word in the handoff.
+- A misread line is not fixed by a reroll — the reading follows the notation, so change the string.
+- Editing a line leaves its respelling behind — reread every `respell()` on a line whose words you change.

@@ -1,0 +1,66 @@
+{
+  "kind": "comfy",
+  "workflow": "audio_minimax_h3_r2a.json",
+  "inputs": {
+    "21.image": "__konte:reference:konte__",
+    "31.audio": "__konte:reference:konteVoice__",
+    "10.prompt": "subject_definitions: <Subject 1> is the girl in <Picture 1>: a wavy black bob with violet-dyed tips underneath and one small curl sticking up on top, a white headband printed with violet stars tied in a big bow on top of her head, a black choker, an oversized white hoodie with a violet konte logo on the chest and a thin violet shoulder-bag strap across it. She is speaker (S1).\n<Audio 1> is the voice-timbre reference for <Subject 1> (S1).\n\nsummary: [reference generation + audio reference] One short spoken line from <Subject 1> (S1), pointing at one picture on her screen late at night.\n\nretention_analysis: <Subject 1> (appears in [Shot 1]): weak_reference - her age, look and bright character cast the voice.\n<Audio 1>: weak_reference - the voice keeps its colour; the delivery follows the scene.\n\ndetailed_description: 2D-animated. [Shot 1] <Subject 1> (S1), an early-teens girl with a bright, light, crisp voice, pointing at one picture on her screen late at night. She thrusts one finger toward the screen, her sleeve brushing the desk with a soft swish. She says it instantly and decisively, <d>[English] That one!</d> Her lips close and she falls quiet. The camera holds a static shot.\n\noverall_soundscape: A small, quiet bedroom, soft rain pattering on the window glass, a faint room tone underneath.\n\nnon_diegetic_music: N/A",
+    "10.width": 128,
+    "10.height": 128,
+    "10.length": 39,
+    "11.noise_seed": "__konte:seed__",
+    "13.steps": 20,
+    "1.unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "2.clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "3.vae_name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "4.vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+  },
+  "prunedNodes": [
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "32",
+    "33"
+  ],
+  "models": [
+    {
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+    },
+    {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "21.image": "image1",
+    "31.audio": "audio1",
+    "10.prompt": "prompt",
+    "10.width": "width",
+    "10.height": "height",
+    "10.length": "length",
+    "11.noise_seed": "seed",
+    "13.steps": "steps",
+    "1.unet_name": "unetName",
+    "2.clip_name": "clipName",
+    "3.vae_name": "vaeName",
+    "4.vae_name": "audioVaeName"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "comfy",
+  "workflow": "image_krea2_turbo_t2i.json",
+  "inputs": {
+    "52.text": "Soft painterly picture-book illustration in thick, velvety gouache: visible round brush strokes, colours laid in soft overlapping layers, edges melting gently into one another, a faint warm paper grain under the paint. A narrow old hillside harbour town in steady rain, seen wide from a high rooftop: slate-blue tiled rooftops, utility poles and small houses stepping down toward a grey-teal harbour, wet lanes holding long amber reflections of lit windows, an open misty grey-violet sky over the water. Palette of deep slate blue, misty teal and grey-violet, warm honey amber in every window. Diffuse rainy light, soft atmospheric haze in the distance.",
+    "53.width": 1920,
+    "53.height": 1088,
+    "54.seed": "__konte:seed__",
+    "54.steps": 8,
+    "58.vae_name": "qwen_image_vae.safetensors",
+    "57.clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+    "56.unet_name": "krea2_turbo_int8_convrot.safetensors"
+  },
+  "models": [
+    {
+      "filename": "krea2_turbo_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/diffusion_models/krea2_turbo_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
+    },
+    {
+      "filename": "qwen_image_vae.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/vae/qwen_image_vae.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "52.text": "prompt",
+    "53.width": "width",
+    "53.height": "height",
+    "54.seed": "seed",
+    "54.steps": "steps",
+    "58.vae_name": "vaeName",
+    "57.clip_name": "clipName",
+    "56.unet_name": "unetName"
+  }
+}

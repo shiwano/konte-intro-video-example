@@ -1,0 +1,41 @@
+{
+  "kind": "comfy",
+  "workflow": "image_krea2_turbo_t2i.json",
+  "inputs": {
+    "52.text": "Modern flat-colour anime illustration in the style of a cute mobile-game mascot key visual: bold, clean dark outlines of even weight, bright flat cel colours filled edge to edge, one simple step of soft lavender shading, crisp edges everywhere. A school campus on the day of its film festival, seen from a slightly raised spot at the edge of a wide paved plaza in bright morning light. Across the far side of the plaza, filling the upper middle of the picture, a white-walled school building with rows of windows and a small clock tower in its centre, a long violet banner with a film reel drawn on it hanging down the front of the clock tower. Strings of violet and sunflower yellow pennant flags run in loose swags from the building to tall poles across the plaza. Small festival stalls with striped violet-and-white awnings line both sides of the plaza, a few round paper lanterns and balloons tied to their posts. Pale grey paving stones cover the lower third of the picture, a few planters with green shrubs at the edges. Students in white and navy school uniforms walk and gather across the plaza, drawn with slender, natural anime proportions about six heads tall, long legs and small heads: a few walk in the near foreground, standing about a third of the picture's height, others in pairs pointing at the stalls further back, getting smaller with distance. Clear soft blue sky with a few white clouds after the rain, small puddles on the paving catching the sky. White, violet, sunflower yellow and fresh green. Bright, even morning daylight from the upper left, soft pale shadows.",
+    "53.width": 2496,
+    "53.height": 1248,
+    "54.seed": "__konte:seed__",
+    "54.steps": 8,
+    "58.vae_name": "qwen_image_vae.safetensors",
+    "57.clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+    "56.unet_name": "krea2_turbo_int8_convrot.safetensors"
+  },
+  "models": [
+    {
+      "filename": "krea2_turbo_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/diffusion_models/krea2_turbo_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
+    },
+    {
+      "filename": "qwen_image_vae.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/vae/qwen_image_vae.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "52.text": "prompt",
+    "53.width": "width",
+    "53.height": "height",
+    "54.seed": "seed",
+    "54.steps": "steps",
+    "58.vae_name": "vaeName",
+    "57.clip_name": "clipName",
+    "56.unet_name": "unetName"
+  }
+}

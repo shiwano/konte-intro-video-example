@@ -1,0 +1,84 @@
+{
+  "mode": "reference-preview",
+  "stage": "reference",
+  "createdAt": "2000-01-01T00:07:34.000Z",
+  "context": {
+    "shots": [],
+    "timeline": {
+      "konte": "v-buptVf2L",
+      "konteVoice": "v-HNguG5C9",
+      "poster": "v-nrMSlsNX",
+      "manuscript": "v-JPDRqTki",
+      "laptop": "v-lhTSfUQU",
+      "paperWhale": "v-LIEvgXQQ",
+      "room": "v-9nmv5iH5",
+      "hallway": "v-YBsj8xbg",
+      "campus": "v-cRv8jt9k",
+      "hall": "v-0GtvM2Ko",
+      "mangaWhale": "v-SMPMHLkc",
+      "mangaRain": "v-rQxeskqv",
+      "mangaGirl": "v-RPqnj8yL",
+      "mangaHarbour": "v-QiTzXuAe",
+      "filmTown": "v-t1PqpuoR",
+      "filmGirl": "v-ZYgBmu1y",
+      "filmPanel": "v-kym4qWRc",
+      "filmLastSmall": "v-Z47pkDgH",
+      "filmLastKind": "v-xeYu9rgU",
+      "filmPanelKind": "v-FezMXYSZ",
+      "filmPanelSleepy": "v-x3EsWtCb",
+      "filmPanelStare": "v-otZD4eF6",
+      "bgm": "v-P3YgdZJo",
+      "view.hallway.side": "v-qcs1OU4p",
+      "view.room.top": "v-mzuByeIV",
+      "view.hall.back": "v-PfVScDZM"
+    }
+  },
+  "decisions": [
+    {
+      "address": "reference:filmPanelSleepy",
+      "feedback": [
+        {
+          "id": "fb-RPfef0fH",
+          "annotation": null,
+          "text": "動画サービスで作る動画になるんだから、filmPanelKind とは構図変えた別の絵のほうがいいな",
+          "displayedVariants": {
+            "reference:filmPanelSleepy": "v-x3EsWtCb"
+          },
+          "stale": false,
+          "added": true
+        }
+      ]
+    },
+    {
+      "address": "reference:filmPanelStare",
+      "feedback": [
+        {
+          "id": "fb-9UBogmR6",
+          "annotation": {
+            "kind": "pin",
+            "x": 0.467,
+            "y": 0.395
+          },
+          "text": "目がちょっと見開きすぎで不自然",
+          "displayedVariants": {
+            "reference:filmPanelStare": "v-otZD4eF6"
+          },
+          "stale": false,
+          "added": true
+        }
+      ]
+    }
+  ],
+  "handoffId": "20000101T000731000",
+  "handoffSummary": "冒頭 n05（タイムラインに並んだクリップごとにクジラの目つきが違う）で使う、目つき違いのクジラを2枚追加しました。既存の「やさしい目」「きつい目」と並べて使います。",
+  "handoffNotes": [
+    {
+      "address": "reference:filmPanelSleepy",
+      "text": "眠そうな半目のクジラです。"
+    },
+    {
+      "address": "reference:filmPanelStare",
+      "text": "まん丸に見開いたクジラです。"
+    }
+  ]
+}

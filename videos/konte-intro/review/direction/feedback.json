@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "feedback": {
+    "direction:sequence.shots.n09": [
+      {
+        "id": "fb-ulXI0HzH",
+        "displayedVariants": {},
+        "subjectHash": "43379e58da65",
+        "annotation": null,
+        "text": "github には、AI videos you direct and a coding agent produces という文言はない。\n🎬 Make multi-shot AI videos the way you build software with a coding agent.\nの description が使えるかなあ。",
+        "createdAt": "2000-01-01T00:06:00.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "direction:sequence.shots.n07": [
+      {
+        "id": "fb-EmOdiHXX",
+        "displayedVariants": {},
+        "subjectHash": "30dfb4f1af63",
+        "annotation": null,
+        "text": "ここらへん 1.5s で足りる？",
+        "createdAt": "2000-01-01T00:06:00.000Z",
+        "createdBy": "local"
+      }
+    ]
+  }
+}

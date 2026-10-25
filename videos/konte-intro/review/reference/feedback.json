@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "feedback": {
+    "reference:filmPanelSleepy": [
+      {
+        "id": "fb-RPfef0fH",
+        "displayedVariants": {
+          "reference:filmPanelSleepy": "v-x3EsWtCb"
+        },
+        "annotation": null,
+        "text": "動画サービスで作る動画になるんだから、filmPanelKind とは構図変えた別の絵のほうがいいな",
+        "createdAt": "2000-01-01T00:07:34.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "reference:filmPanelSharp": [
+      {
+        "id": "fb-wjVGKSvy",
+        "displayedVariants": {
+          "reference:filmPanelSharp": "v-WjNpfNaq"
+        },
+        "annotation": null,
+        "text": "？これどこで使うの？ 後半のところは変更不要だけど。",
+        "createdAt": "2000-01-01T00:07:40.000Z",
+        "createdBy": "local"
+      }
+    ]
+  }
+}

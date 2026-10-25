@@ -1,0 +1,14 @@
+{
+  "stage": "animatic",
+  "summary": "n02・n05 の画面を作り直しました。プロンプト欄が一部 Arial で描かれていたのを、すべて Nunito に揃えています。",
+  "notes": [
+    {
+      "address": "animatic:shot.n02",
+      "text": "入力後の画面がフォント読み込み失敗で Arial の太字になっていたので作り直し、前の画面と同じ Nunito に揃えました。"
+    },
+    {
+      "address": "animatic:shot.n05",
+      "text": "最初の画面だけ Arial で描かれ、太さと改行位置が変わっていたので作り直しました。3枚とも Nunito で揃っています。"
+    }
+  ]
+}

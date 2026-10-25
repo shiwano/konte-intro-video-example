@@ -1,0 +1,25 @@
+{
+  "comfy": {
+    "adapters": {
+      "*": [
+        "comfyui",
+        "comfyapi:cloud",
+        "comfyapi:main"
+      ]
+    },
+    "comfyui": {
+      "url": "http://127.0.0.1:8000",
+      "autoInstallModels": true,
+      "autoInstallNodes": true,
+      "autoRebootAfterNodeInstall": true,
+      "unreachableTimeoutMinutes": 15
+    },
+    "comfyapi": {
+      "deployments": {
+        "main": {
+          "comfyVersion": "v0.39.1"
+        }
+      }
+    }
+  }
+}

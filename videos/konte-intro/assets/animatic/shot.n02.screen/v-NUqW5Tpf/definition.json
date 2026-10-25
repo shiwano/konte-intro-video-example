@@ -1,0 +1,18 @@
+{
+  "kind": "local",
+  "operation": "render",
+  "mediaType": "image",
+  "inputs": {
+    "stage": "<style>#stage { background: #f7f3ee; }</style><div style=\"position:absolute;inset:0;background:#f7f3ee;font-family:&quot;Nunito&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif;color:#2f2a26\"><div style=\"height:4.6vmax;display:flex;align-items:center;gap:1vmax;padding:0 2.4vmax;background:#fff;border-bottom:0.1vmax solid #ebe4da\"><div style=\"width:2.2vmax;height:2.2vmax;border-radius:50%;background:linear-gradient(135deg, #ff9a5a, #2bb3a3)\"></div><span style=\"font-size:1.9vmax;font-weight:800\">Clipwell</span><span style=\"margin-left:3vmax;font-size:1.3vmax;font-weight:700;color:#2f2a26\">Create</span><span style=\"margin-left:1.6vmax;font-size:1.3vmax;font-weight:700;color:#a39a90\">Library</span><div style=\"margin-left:auto;width:2.2vmax;height:2.2vmax;border-radius:50%;background:#e6ddd2\"></div></div><div style=\"position:absolute;left:2.4vmax;top:6.4vmax;width:30vmax;display:flex;flex-direction:column;gap:1.2vmax\"><div style=\"background:#fff;border-radius:1vmax;padding:1.2vmax;box-shadow:0 0.3vmax 1.2vmax rgba(80,60,40,.08)\"><div style=\"font-size:1.15vmax;font-weight:800;color:#8a8178;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.7vmax\">Image</div><div style=\"position:relative;aspect-ratio:16 / 10;border-radius:0.6vmax;overflow:hidden;border:0.2vmax dashed #d4c9bc;background:#faf7f3;display:flex;align-items:center;justify-content:center\"><span style=\"font-size:1.2vmax;color:#a39a90;font-weight:700\">Drop an image</span></div></div><div style=\"background:#fff;border-radius:1vmax;padding:1.2vmax;box-shadow:0 0.3vmax 1.2vmax rgba(80,60,40,.08)\"><div style=\"font-size:1.15vmax;font-weight:800;color:#8a8178;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.7vmax\">Prompt</div><div style=\"min-height:4.6vmax;font-size:1.35vmax;line-height:1.4;color:#b5aca2;font-weight:600\">Describe the motion…</div></div><div style=\"height:4vmax;border-radius:2vmax;background:linear-gradient(90deg, #ff8a4c, #ff6f61);color:#fff;font-size:1.5vmax;font-weight:800;display:flex;align-items:center;justify-content:center\">Generate</div></div><div style=\"position:absolute;left:34.8vmax;right:2.4vmax;top:6.4vmax;background:#fff;border-radius:1vmax;padding:0.8vmax;box-shadow:0 0.3vmax 1.2vmax rgba(80,60,40,.08)\"><div style=\"position:relative;aspect-ratio:16 / 9;border-radius:0.6vmax;overflow:hidden;background:#2f2a26;display:flex;align-items:center;justify-content:center\"><span style=\"font-size:1.3vmax;color:#8a8178;font-weight:700\">Your clip will appear here</span></div></div></div>",
+    "width": 2496,
+    "height": 1408,
+    "typography": {
+      "lang": "en",
+      "fonts": [
+        "Nunito"
+      ]
+    },
+    "refs": []
+  },
+  "deterministic": true
+}

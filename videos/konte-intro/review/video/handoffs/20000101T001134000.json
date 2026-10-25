@@ -1,0 +1,14 @@
+{
+  "stage": "video",
+  "summary": "n08 を新しいセリフ「...Which one was the good one?」で作り直し、尺を3秒に延ばしました。32 の日付カードは「Deadline Day」にしています。全体は119.5秒です。",
+  "notes": [
+    {
+      "address": "video:shot.n08",
+      "text": "新しいセリフで作り直しました。頬杖のまま、ため息まじりに言っています。"
+    },
+    {
+      "address": "video:shot.32",
+      "text": "日付カードを「Sun」から「Deadline Day」に変えました。後の「Screening Day」と対になります。"
+    }
+  ]
+}

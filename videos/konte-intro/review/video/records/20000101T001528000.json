@@ -1,0 +1,633 @@
+{
+  "mode": "video-preview",
+  "stage": "video",
+  "createdAt": "2000-01-01T00:15:28.000Z",
+  "context": {
+    "shots": [
+      {
+        "shotId": "01",
+        "start": 0,
+        "duration": 3,
+        "variants": {
+          "motion": "v-2mtLCtlA"
+        },
+        "takes": {
+          "video:shot.01.motion": "v-2mtLCtlA"
+        }
+      },
+      {
+        "shotId": "02",
+        "start": 3,
+        "duration": 2.5,
+        "variants": {
+          "motion": "v-Z9AI7dQL"
+        },
+        "takes": {
+          "video:shot.02.motion": "v-Z9AI7dQL"
+        }
+      },
+      {
+        "shotId": "03",
+        "start": 5.5,
+        "duration": 3.5,
+        "variants": {
+          "motion": "v-f8C9zAfl"
+        },
+        "takes": {
+          "video:shot.03.motion": "v-f8C9zAfl"
+        }
+      },
+      {
+        "shotId": "04",
+        "start": 9,
+        "duration": 2,
+        "variants": {},
+        "takes": {
+          "animatic:shot.04.key": "v-cGjxtyya"
+        }
+      },
+      {
+        "shotId": "n01",
+        "start": 11,
+        "duration": 1.5,
+        "variants": {
+          "motion": "v-knMokTQD"
+        },
+        "takes": {
+          "video:shot.n01.motion": "v-knMokTQD"
+        }
+      },
+      {
+        "shotId": "n02",
+        "start": 12.5,
+        "duration": 2,
+        "variants": {},
+        "takes": {
+          "animatic:shot.n02.screen": "v-D60AvXfF",
+          "animatic:shot.n02.screenNext": "v-GqI4qI9N"
+        }
+      },
+      {
+        "shotId": "n03",
+        "start": 14.5,
+        "duration": 1.5,
+        "variants": {},
+        "takes": {
+          "animatic:shot.n03.screen": "v-n4FFNGjC"
+        }
+      },
+      {
+        "shotId": "n04",
+        "start": 16,
+        "duration": 2,
+        "variants": {
+          "motion": "v-SUINXo0z"
+        },
+        "takes": {
+          "video:shot.n04.motion": "v-SUINXo0z"
+        }
+      },
+      {
+        "shotId": "n05",
+        "start": 18,
+        "duration": 2.5,
+        "variants": {},
+        "takes": {
+          "animatic:shot.n05.screen": "v-jZczCHad",
+          "animatic:shot.n05.screenNext": "v-pazwOZdp",
+          "animatic:shot.n05.screen3": "v-oqbtJSnU"
+        }
+      },
+      {
+        "shotId": "n06",
+        "start": 20.5,
+        "duration": 2,
+        "variants": {
+          "motion": "v-trM6qd7v"
+        },
+        "takes": {
+          "video:shot.n06.motion": "v-trM6qd7v"
+        }
+      },
+      {
+        "shotId": "n07",
+        "start": 22.5,
+        "duration": 2,
+        "variants": {},
+        "takes": {
+          "animatic:shot.n07.screen": "v-WMbBo3g8",
+          "animatic:shot.n07.screenNext": "v-dJiP8sX3",
+          "animatic:shot.n07.screen3": "v-AQygG6pV",
+          "animatic:shot.n07.screen4": "v-kLgwQJdn"
+        }
+      },
+      {
+        "shotId": "07a",
+        "start": 24.5,
+        "duration": 1,
+        "variants": {
+          "motion": "v-zFYd8WDz"
+        },
+        "takes": {
+          "video:shot.07a.motion": "v-zFYd8WDz"
+        }
+      },
+      {
+        "shotId": "n08",
+        "start": 25.5,
+        "duration": 3,
+        "variants": {
+          "motion": "v-tIRUTQww"
+        },
+        "takes": {
+          "video:shot.n08.motion": "v-tIRUTQww"
+        }
+      },
+      {
+        "shotId": "n09",
+        "start": 28.5,
+        "duration": 2,
+        "variants": {},
+        "takes": {
+          "animatic:shot.n09.screen": "v-8mEIZdXr"
+        }
+      },
+      {
+        "shotId": "n10",
+        "start": 30.5,
+        "duration": 2,
+        "variants": {
+          "motion": "v-amWl00M2"
+        },
+        "takes": {
+          "video:shot.n10.motion": "v-amWl00M2"
+        }
+      },
+      {
+        "shotId": "16",
+        "start": 32.5,
+        "duration": 4,
+        "variants": {
+          "motion": "v-exrv6Y2W"
+        },
+        "takes": {
+          "video:shot.16.motion": "v-exrv6Y2W"
+        }
+      },
+      {
+        "shotId": "17",
+        "start": 36.5,
+        "duration": 4,
+        "variants": {},
+        "takes": {
+          "reference:mangaRain": "v-rQxeskqv",
+          "reference:mangaGirl": "v-RPqnj8yL",
+          "reference:mangaWhale": "v-SMPMHLkc",
+          "reference:mangaHarbour": "v-QiTzXuAe"
+        }
+      },
+      {
+        "shotId": "18",
+        "start": 40.5,
+        "duration": 3,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "19",
+        "start": 43.5,
+        "duration": 3,
+        "variants": {
+          "motion": "v-MCLyeEXS"
+        },
+        "takes": {
+          "video:shot.19.motion": "v-MCLyeEXS"
+        }
+      },
+      {
+        "shotId": "20",
+        "start": 46.5,
+        "duration": 3.5,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "21",
+        "start": 50,
+        "duration": 2,
+        "variants": {},
+        "takes": {
+          "animatic:shot.21.screen": "v-RH4aYvyE",
+          "animatic:shot.21.screenNext": "v-o0rk7iJc"
+        }
+      },
+      {
+        "shotId": "22",
+        "start": 52,
+        "duration": 1.5,
+        "variants": {},
+        "takes": {
+          "animatic:shot.22.screen": "v-qkMeZgqp",
+          "animatic:shot.22.screenPasted": "v-49HPrG8d"
+        }
+      },
+      {
+        "shotId": "23",
+        "start": 53.5,
+        "duration": 4.5,
+        "variants": {},
+        "takes": {
+          "reference:paperWhale": "v-LIEvgXQQ",
+          "reference:filmGirl": "v-ZYgBmu1y",
+          "reference:filmTown": "v-t1PqpuoR"
+        }
+      },
+      {
+        "shotId": "24",
+        "start": 58,
+        "duration": 2,
+        "variants": {
+          "motion": "v-lyNMB3Jt"
+        },
+        "takes": {
+          "video:shot.24.motion": "v-lyNMB3Jt"
+        }
+      },
+      {
+        "shotId": "25",
+        "start": 60,
+        "duration": 3,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "26",
+        "start": 63,
+        "duration": 3.5,
+        "variants": {
+          "motion": "v-jzDAUMhq"
+        },
+        "takes": {
+          "animatic:shot.26.screen": "v-aFt07yPr",
+          "animatic:shot.26.screenNext": "v-1dzhaWA8",
+          "video:shot.26.motion": "v-jzDAUMhq",
+          "animatic:shot.26.line": "v-YH9U8jNX"
+        }
+      },
+      {
+        "shotId": "26a",
+        "start": 66.5,
+        "duration": 2,
+        "variants": {},
+        "takes": {}
+      },
+      {
+        "shotId": "26b",
+        "start": 68.5,
+        "duration": 2,
+        "variants": {},
+        "takes": {
+          "animatic:shot.26b.screen": "v-y5yMpAyu",
+          "animatic:shot.26b.screenNext": "v-F83I86qy"
+        }
+      },
+      {
+        "shotId": "26c",
+        "start": 70.5,
+        "duration": 1,
+        "variants": {
+          "motion": "v-PaGMTXSW"
+        },
+        "takes": {
+          "video:shot.26c.motion": "v-PaGMTXSW"
+        }
+      },
+      {
+        "shotId": "27",
+        "start": 71.5,
+        "duration": 4,
+        "variants": {},
+        "takes": {
+          "animatic:shot.27.screen": "v-utDS2bZb",
+          "animatic:shot.27.screenPinned": "v-X8P5hVuj",
+          "animatic:shot.27.screenTyped1": "v-8NTC73ZV",
+          "animatic:shot.27.screenTyped2": "v-miCg5UME",
+          "animatic:shot.27.screenTyped3": "v-MNNbCh0W",
+          "animatic:shot.27.screenTyped4": "v-nJDDnVIY",
+          "animatic:shot.27.screenTyped5": "v-DQrVGScW",
+          "animatic:shot.27.screenDraft": "v-hQp4coRV",
+          "animatic:shot.27.line": "v-S9iw3dR0"
+        }
+      },
+      {
+        "shotId": "27a",
+        "start": 75.5,
+        "duration": 3.5,
+        "variants": {},
+        "takes": {
+          "reference:filmPanelKind": "v-FezMXYSZ",
+          "reference:filmPanel": "v-kym4qWRc"
+        }
+      },
+      {
+        "shotId": "28",
+        "start": 79,
+        "duration": 2.5,
+        "variants": {},
+        "takes": {
+          "animatic:shot.28.screen": "v-KQLwgCkU"
+        }
+      },
+      {
+        "shotId": "29",
+        "start": 81.5,
+        "duration": 2.5,
+        "variants": {
+          "motion": "v-4GKE1g7I"
+        },
+        "takes": {
+          "video:shot.29.motion": "v-4GKE1g7I"
+        }
+      },
+      {
+        "shotId": "30",
+        "start": 84,
+        "duration": 4,
+        "variants": {},
+        "takes": {
+          "animatic:shot.28.screen": "v-KQLwgCkU",
+          "animatic:shot.30.screen21": "v-BZKutXfS",
+          "animatic:shot.30.screenNext": "v-HMNgNYvg",
+          "animatic:shot.30.screen72": "v-lBvmBOIx",
+          "animatic:shot.30.screen80": "v-wUJ8SYFq"
+        }
+      },
+      {
+        "shotId": "35",
+        "start": 88,
+        "duration": 3,
+        "variants": {
+          "motion": "v-xLoYIju4"
+        },
+        "takes": {
+          "video:shot.35.motion": "v-xLoYIju4"
+        }
+      },
+      {
+        "shotId": "35b",
+        "start": 91,
+        "duration": 3,
+        "variants": {},
+        "takes": {
+          "reference:filmLastKind": "v-xeYu9rgU",
+          "reference:filmLastSmall": "v-Z47pkDgH"
+        }
+      },
+      {
+        "shotId": "35a",
+        "start": 94,
+        "duration": 2.5,
+        "variants": {},
+        "takes": {
+          "animatic:shot.35a.screen": "v-TMaome8A"
+        }
+      },
+      {
+        "shotId": "32",
+        "start": 96.5,
+        "duration": 1.5,
+        "variants": {
+          "motion": "v-mgcX8i42"
+        },
+        "takes": {
+          "video:shot.32.motion": "v-mgcX8i42"
+        }
+      },
+      {
+        "shotId": "33",
+        "start": 98,
+        "duration": 2.5,
+        "variants": {
+          "motion": "v-G6G2Si5v"
+        },
+        "takes": {
+          "video:shot.33.motion": "v-G6G2Si5v"
+        }
+      },
+      {
+        "shotId": "36",
+        "start": 100.5,
+        "duration": 2.5,
+        "variants": {},
+        "takes": {
+          "animatic:shot.36.screen": "v-WWTZkn5F",
+          "animatic:shot.36.screenNext": "v-vP3Zl2v5"
+        }
+      },
+      {
+        "shotId": "37",
+        "start": 103,
+        "duration": 3.5,
+        "variants": {},
+        "takes": {
+          "reference:filmLastKind": "v-xeYu9rgU"
+        }
+      },
+      {
+        "shotId": "37a",
+        "start": 106.5,
+        "duration": 2.5,
+        "variants": {
+          "motion": "v-EmW7ktPz"
+        },
+        "takes": {
+          "video:shot.37a.motion": "v-EmW7ktPz"
+        }
+      },
+      {
+        "shotId": "38",
+        "start": 109,
+        "duration": 3.5,
+        "variants": {
+          "motion": "v-u9r1Ns0R"
+        },
+        "takes": {
+          "video:shot.38.motion": "v-u9r1Ns0R"
+        }
+      },
+      {
+        "shotId": "39",
+        "start": 112.5,
+        "duration": 3,
+        "variants": {
+          "motion": "v-hjKdTSSE"
+        },
+        "takes": {
+          "video:shot.39.motion": "v-hjKdTSSE"
+        }
+      },
+      {
+        "shotId": "41",
+        "start": 115.5,
+        "duration": 4,
+        "variants": {
+          "motion": "v-rVOtf76q"
+        },
+        "takes": {
+          "video:shot.41.motion": "v-rVOtf76q"
+        }
+      }
+    ],
+    "timeline": {},
+    "timelineSources": {
+      "reference:bgm": "v-P3YgdZJo"
+    },
+    "contentHashes": {
+      "video:shot.01#composition": "aa15f313e1304dcbaf965eea27c22d0875b5950f9f79cbc5bd35487d5976da81",
+      "video:shot.02#composition": "cb17a4522522549f2ff70d2b6757e1281077e0c6074224453d814b55e1ef914a",
+      "video:shot.03#composition": "e473985fe28cdbfce164688cc869f33079a2274a02032b0d8e61a31e5b4b1000",
+      "video:shot.04#composition": "c39b967ccccd8be7658aeea9fa59d2ed670add7af0370443dbd3e23abc827291",
+      "video:shot.n01#composition": "a83631998a37b6b306f8d4cdf4be2ed4e107a21be3359e267963c6b6347f55fe",
+      "video:shot.n02#composition": "58227dd12c2132f4049cd0e0b6c8a7733d8f4a1b0b6b35a3610691044101150c",
+      "video:shot.n03#composition": "87a712ea9052c7459ab04b0a0299eef086aa9e871453612e574f3dc8db9acac7",
+      "video:shot.n04#composition": "b7a09c3e5890ab65c19cfc246a30dce188636d6729b3b558a6ecc3692f96fd77",
+      "video:shot.n05#composition": "816f6d8a9bc8452fc867797bcabcebbe312fcf176c44f4f7c22c98d27e498d94",
+      "video:shot.n06#composition": "fb1f3d49e7ff99c87c5c1f11368c7660986a80aa17036aed33738e1cfb0806f7",
+      "video:shot.n07#composition": "8b20baf0b65eb66d28c09ec078e257b5b7d1c8839553ba004b3c4e9c80826d5e",
+      "video:shot.07a#composition": "cc0e3f849382fa8c88686601a74e4cbf93b5089f30c3fcc485a421f88f983150",
+      "video:shot.n08#composition": "352d40a207b872787bc0791c83aae7eb1b85279147e961938cc39ef91205dcf4",
+      "video:shot.n09#composition": "b556f3b99e707bf4d4567ad9681bb9f5b5a2fde4f3b65ceec842b433c97158da",
+      "video:shot.n10#composition": "a3616bd2a378820d2368174ac5e9496c75422580c518ebd1326146491306a39a",
+      "video:shot.16#composition": "f713f1a3e8fb7b27b516d1bc009cc1b2d37ae83e0ffa3c8611ba2df989729d91",
+      "video:shot.17#composition": "4287c198aa04667c754a3f0a7b3e770d4bca4a7c3950ecdaa6d6659fdab57312",
+      "video:shot.18#composition": "916b3530c5a4b996c8b0d87753a26e6c141238585358d570d0fe2f9b365f707b",
+      "video:shot.19#composition": "d7379b4ff6118b9189b119c9bb5f347a8dc3346ec4c1bf9be00b6edc84209883",
+      "video:shot.20#composition": "3e49455ac3255112fd5c7516f1559e340481735886d0333df8c52ae2a6d402e6",
+      "video:shot.21#composition": "4c1a278e10014ed3a6565a055cc2991ae219736067dcc83e0dff70368e0d5d6e",
+      "video:shot.22#composition": "6cb1bf01097b41ba399100293c196d30cf894e3859ee161891ee615b8767b4b3",
+      "video:shot.23#composition": "75e8f18d2e59d4319117e1d32ba349c2b0161c71e4e1e398a9bb385746e4ef6b",
+      "video:shot.24#composition": "d7f1e7c7ab4272cf8c2daf84eb5b755b073a662a0a9a96f01dc956441eefcbe0",
+      "video:shot.25#composition": "fed07481c82e480a317fb8839fc9a309c29808223b2f173f230a2cc7169d4f06",
+      "video:shot.26#composition": "a9632eb9b78c8979f31e4cd8b79f1e88974c08f2d1512b8c2f8c4f0689cb31a5",
+      "video:shot.26a#composition": "353a74f9254b83ebb1bcec10f492663d0a2e39010b81707b7661702c46f34d40",
+      "video:shot.26b#composition": "3040188d849e31cd7511323c4416a7f4ae4ff6d30919f0580b3b784bc1e01895",
+      "video:shot.26c#composition": "485938d94e5488730d7deb7c30dc0d3d3a50c7c95d091d5943b2387bd999d2ae",
+      "video:shot.27#composition": "3ed232aa6221b10440977ce0dbd148e0b5e9df9897fd1a7005c5dd8e3e8c2ab7",
+      "video:shot.27a#composition": "923ae285601b0132484bbeee119f3d46a0686c8d823c7d4c18fc2c005a5ef639",
+      "video:shot.28#composition": "104312164d591a3eb30d31636b8ae1c0906672e31d0b1142812be3359fd66291",
+      "video:shot.29#composition": "6cadb21f8fb5327d1211a1224536a4b0a71466fd818ffd68153c035969b3bfe2",
+      "video:shot.30#composition": "daf931f1a0d713f3cf5dfdba73b6defe31b74006b60b8bf4a72001d39758f9d9",
+      "video:shot.35#composition": "4940962e1590bc4407bfa643ed7a3dd335c09d5b970dcd2a9683430a13fa653b",
+      "video:shot.35b#composition": "ad9b419bc8275e1f04eb1a719b62de5e349d0578aee04fddee54dfb34d5d6a53",
+      "video:shot.35a#composition": "d500aaba01bf7b4ad2c8fbfc8b22bc0dee900cd4d25c23e671021dc89111bce3",
+      "video:shot.32#composition": "d2ec867373dfb7024bcd1ac7e90e0f7e8669dacd665f1c76768bf2acf6547ef9",
+      "video:shot.33#composition": "b149901956cc3a5b9680de398cd540943700853294cf8bfa60db6238b790fa31",
+      "video:shot.36#composition": "f8f91b9bda8b75b1cdbd83de02952d8de8c03c803f2177b80edc272ddab57907",
+      "video:shot.37#composition": "327de2ca5e27334fca408bf5f804f1f70625fe58dccc1d7ef198d4ab42063f26",
+      "video:shot.37a#composition": "648a063feccc6f005991334f6178285dae7220a7c2fa1d3991c2e6515d377a03",
+      "video:shot.38#composition": "4a4caedda7a32af6a3a075da0ea1c0d72722a34dcddbaa4707e7c184b592da94",
+      "video:shot.39#composition": "247d69390514c5b0eefa7ada19e6e8d3587da537514c15ca1fa9963dd76c4e56",
+      "video:shot.41#composition": "d6c369038c02b394587d112e0e14a82fa90f145d56ec6ce9186bd4f9951c0c1b",
+      "video:shot.01#stem": "bc7bcd3bb60f74004b8678f8125f24d6c449471182aa3f6b3b395ed380eec233",
+      "video:shot.02#stem": "c90be6ea0916e54fe31ed0357f4da9a01f3832edb4173f240387a171799a9f68",
+      "video:shot.03#stem": "bb155590d045fbcea2226a1b631d494e905f030eb06ad897eb2ac1b316a67af6",
+      "video:shot.n01#stem": "06b5731c75f501b9ac51b35e3c595ce1258deba09c9d86a1c00f8197db229dc3",
+      "video:shot.n04#stem": "09e0d7d88cb841d09ce407aacbafda3cc231359714669e5461a9be0d6a9a4815",
+      "video:shot.n06#stem": "880182297791f42b8cee79f0e8e5a3f0818dd8bdbb8de38a8963584cb1a966ff",
+      "video:shot.07a#stem": "9fdde70a83b866c042b612ba4b04d9b1ff071e5b6359111dbefc09bcd0a4def7",
+      "video:shot.n08#stem": "b579aed3b0b824ef26046a127e6b580ebb48f678d73cc356d5eaa3c8193ba2db",
+      "video:shot.n10#stem": "c53e5357dc6c9a37c657d78a2f0cbb1f5537f46e56faec7c2af839f579c358dd",
+      "video:shot.16#stem": "b3ade036368cfce282d675ce74141119c7345a5b5f8c5d7e2158d3f2452af195",
+      "video:shot.19#stem": "354a2ae8e95422c8b5a111b4daa36d93c42c9af9d8ef77c0627e412b9e34f493",
+      "video:shot.24#stem": "2ea95308c90f2bad503bb584986aec40abff42b98ef2d8662070d1abd503685a",
+      "video:shot.26#stem": "a5f7364f2abb71f512891539863335848dc7e41e3e7f7bd948eda60ff55086e9",
+      "video:shot.26c#stem": "7ba81e3f5aef74dee21ea5cc7fcfd13ee6c0599b7a64885187830a5e95c48db0",
+      "video:shot.27#stem": "38a76033b9113004a76db9818c1ebe4d281a5b23c185b91ed884ac5fc0936c5a",
+      "video:shot.29#stem": "e06c08c809d5e4d4f81f9058287fdbce9d6efa8f871b0ccf8beed0457418be2f",
+      "video:shot.35#stem": "6d1467a96882a96e8dcec456d18550ef246ebeb10cf9e15e0b82e7ee571cef48",
+      "video:shot.32#stem": "26ac92e2679cb401aa5515cbe39ec7eaba51f7933f31135fe43009e0e37062ee",
+      "video:shot.33#stem": "59f505485e19afa1acde4cc599a343754216e0b4e75428d3c74e682266e7dee8",
+      "video:shot.37a#stem": "ad679e0cf139574f0977ad8ec95a01c2ee0afb78a18d36cbce73a0567fe4ab48",
+      "video:shot.38#stem": "73f5bcb6b433ed7761cb5fa3e14921963476fe4ffdba5d0aaf172e4f844ee6bd",
+      "video:shot.39#stem": "8627d68d8971dc63283c2f268368ed6e27cd5f3f6dab851f37cda355e98c9dac",
+      "video:timeline#stem": "6e2eaae782ae504ba0381087ced5b4ce32a8ab43941900a41f11043870d824c2"
+    }
+  },
+  "decisions": {
+    "28": "accepted",
+    "30": "accepted",
+    "n07": "accepted",
+    "n08": "accepted",
+    "35b": "accepted"
+  },
+  "cascadeAccepted": [
+    {
+      "address": "video:shot.n08#stem",
+      "via": "video:shot.n08"
+    },
+    {
+      "address": "video:shot.n07#composition",
+      "via": "video:shot.n07"
+    },
+    {
+      "address": "video:shot.n08#composition",
+      "via": "video:shot.n08"
+    },
+    {
+      "address": "video:shot.28#composition",
+      "via": "video:shot.28"
+    },
+    {
+      "address": "video:shot.30#composition",
+      "via": "video:shot.30"
+    },
+    {
+      "address": "video:shot.35b#composition",
+      "via": "video:shot.35b"
+    },
+    {
+      "address": "animatic:shot.35b#composition",
+      "via": "video:shot.35b"
+    },
+    {
+      "address": "direction:sequence.shots.35b",
+      "via": "video:shot.35b"
+    }
+  ],
+  "notes": [
+    {
+      "id": "fb-54HMwNR5",
+      "time": 28.5,
+      "shotId": "n09",
+      "address": "video:shot.n09",
+      "text": "konte でソフトウェア開発のように動画制作を Claude Code に任せることができて楽だったよ\nみたいな感じの情報提供みたいな感じのコメントにしたいな",
+      "displayedVariants": {
+        "animatic:shot.n09.screen": "v-8mEIZdXr",
+        "video:shot.n09#composition": "v-dUSmZU5e"
+      }
+    },
+    {
+      "id": "fb-cYl6401n",
+      "time": 28.5,
+      "shotId": "n09",
+      "address": "video:shot.n09",
+      "text": "で、ここで konte ちゃんの読み上げのセリフもほしいな（コメント通りじゃなくて自然な感じで）",
+      "displayedVariants": {
+        "animatic:shot.n09.screen": "v-8mEIZdXr",
+        "video:shot.n09#composition": "v-dUSmZU5e"
+      }
+    }
+  ],
+  "handoffId": "20000101T001527000",
+  "handoffSummary": "絵コンテで採用していただいた手直しを、動画に反映しました。生成したのはn08の動きだけです。",
+  "handoffNotes": [
+    {
+      "address": "video:shot.n08",
+      "text": "新しいセリフ「Why is a whole movie so hard...?」に合わせて、口の動きを作り直しました。頬杖とため息の芝居は前と同じです。"
+    },
+    {
+      "address": "video:shot.35b",
+      "text": "エージェントの返事を「On it — rerolling only shot 80; the other 79 stay accepted.」にしました。直すのはそのショットだけ、ということが伝わります。"
+    }
+  ]
+}

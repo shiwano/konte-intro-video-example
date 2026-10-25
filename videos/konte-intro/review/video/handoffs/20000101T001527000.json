@@ -1,0 +1,14 @@
+{
+  "stage": "video",
+  "summary": "絵コンテで採用していただいた手直しを、動画に反映しました。生成したのはn08の動きだけです。",
+  "notes": [
+    {
+      "address": "video:shot.n08",
+      "text": "新しいセリフ「Why is a whole movie so hard...?」に合わせて、口の動きを作り直しました。頬杖とため息の芝居は前と同じです。"
+    },
+    {
+      "address": "video:shot.35b",
+      "text": "エージェントの返事を「On it — rerolling only shot 80; the other 79 stay accepted.」にしました。直すのはそのショットだけ、ということが伝わります。"
+    }
+  ]
+}

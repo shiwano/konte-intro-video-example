@@ -1,0 +1,15 @@
+{
+  "kind": "local",
+  "operation": "crop",
+  "mediaType": "image",
+  "inputs": {
+    "image": "__konte:reference:room__",
+    "x": 365,
+    "y": 348,
+    "width": 1600,
+    "height": 900,
+    "outWidth": 1248,
+    "outHeight": 704
+  },
+  "deterministic": true
+}

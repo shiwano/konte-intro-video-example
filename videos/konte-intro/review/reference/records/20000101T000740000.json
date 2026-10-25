@@ -1,0 +1,118 @@
+{
+  "mode": "reference-preview",
+  "stage": "reference",
+  "createdAt": "2000-01-01T00:07:40.000Z",
+  "context": {
+    "shots": [],
+    "timeline": {
+      "konte": "v-buptVf2L",
+      "konteVoice": "v-HNguG5C9",
+      "poster": "v-nrMSlsNX",
+      "manuscript": "v-JPDRqTki",
+      "laptop": "v-lhTSfUQU",
+      "paperWhale": "v-LIEvgXQQ",
+      "room": "v-9nmv5iH5",
+      "hallway": "v-YBsj8xbg",
+      "campus": "v-cRv8jt9k",
+      "hall": "v-0GtvM2Ko",
+      "mangaWhale": "v-SMPMHLkc",
+      "mangaRain": "v-rQxeskqv",
+      "mangaGirl": "v-RPqnj8yL",
+      "mangaHarbour": "v-QiTzXuAe",
+      "filmTown": "v-t1PqpuoR",
+      "filmGirl": "v-ZYgBmu1y",
+      "filmPanel": "v-kym4qWRc",
+      "filmLastSmall": "v-Z47pkDgH",
+      "filmLastKind": "v-xeYu9rgU",
+      "filmPanelKind": "v-FezMXYSZ",
+      "filmPanelSleepy": "v-06tf2d6N",
+      "filmPanelStare": "v-9U1AGpU6",
+      "filmPanelSharp": "v-WjNpfNaq",
+      "bgm": "v-P3YgdZJo",
+      "view.hallway.side": "v-qcs1OU4p",
+      "view.room.top": "v-mzuByeIV",
+      "view.hall.back": "v-PfVScDZM"
+    }
+  },
+  "decisions": [
+    {
+      "address": "reference:filmPanelSleepy",
+      "variantId": "v-06tf2d6N",
+      "status": "accepted",
+      "feedback": [
+        {
+          "id": "fb-RPfef0fH",
+          "annotation": null,
+          "text": "動画サービスで作る動画になるんだから、filmPanelKind とは構図変えた別の絵のほうがいいな",
+          "displayedVariants": {
+            "reference:filmPanelSleepy": "v-x3EsWtCb"
+          },
+          "stale": true
+        }
+      ]
+    },
+    {
+      "address": "reference:filmPanelStare",
+      "feedback": [
+        {
+          "id": "fb-9UBogmR6",
+          "annotation": {
+            "kind": "pin",
+            "x": 0.467,
+            "y": 0.395
+          },
+          "text": "目がちょっと見開きすぎで不自然",
+          "displayedVariants": {
+            "reference:filmPanelStare": "v-otZD4eF6"
+          },
+          "stale": true
+        },
+        {
+          "id": "fb-Xs67WmlA",
+          "annotation": {
+            "kind": "pin",
+            "x": 0.608,
+            "y": 0.384
+          },
+          "text": "kinder の目になってるから、これもちょっと違うかも",
+          "displayedVariants": {
+            "reference:filmPanelStare": "v-9U1AGpU6"
+          },
+          "stale": false,
+          "added": true
+        }
+      ]
+    },
+    {
+      "address": "reference:filmPanelSharp",
+      "feedback": [
+        {
+          "id": "fb-wjVGKSvy",
+          "annotation": null,
+          "text": "？これどこで使うの？ 後半のところは変更不要だけど。",
+          "displayedVariants": {
+            "reference:filmPanelSharp": "v-WjNpfNaq"
+          },
+          "stale": false,
+          "added": true
+        }
+      ]
+    }
+  ],
+  "handoffId": "20000101T000739000",
+  "handoffSummary": "いただいたコメントに合わせて、目つき違いのクジラを、別々に作ったクリップに見える別構図の3枚にしました。3枚とも顔を大きく入れて、サムネイルでも目つきが読めるようにしています。n05 のタイムラインには、やさしい目（最初の1本）→ きつい目 → 半目 → 丸い目 の順に並べます。",
+  "handoffNotes": [
+    {
+      "address": "reference:filmPanelSleepy",
+      "text": "構図を変えて、下から見上げた別のクリップにしました。目は眠そうな半目です。"
+    },
+    {
+      "address": "reference:filmPanelStare",
+      "text": "見開きすぎを抑えて、自然な「きょとん」とした丸い目にしました。構図も別にしています。"
+    },
+    {
+      "address": "reference:filmPanelSharp",
+      "text": "新規です。これまで同じ構図だった「きつい目」の絵の代わりに、こちらへ来る構図で作りました。"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "kind": "comfy",
+  "workflow": "video_minimax_h3_r2v.json",
+  "inputs": {
+    "137.image": "__konte:animatic:shot.26.key__",
+    "163.audio": "__konte:animatic:shot.26#stem__",
+    "136.prompt": "subject_definitions: <Picture 1> is the keyframe of [Shot 1]: close on the girl at night, turned three-quarters toward screen left, lit by a laptop just past the lower left corner, her arm reaching down to its trackpad, her eyes chasing the cursor with an eager grin.\n\nsummary: [keyframe completion] At night, the girl glides the cursor across her screen and clicks one picture at once.\n\nretention_analysis: <Picture 1> ([Shot 1] keyframe): partially_preserved - the framing, the set, the light, the line and the colours hold through the whole shot, and the girl's face, hair and clothing; its pose is the moment the motion passes through, as the description writes it.\n\ndetailed_description: 2D-animated. A modern flat-colour anime illustration with bold, clean dark outlines of even weight, bright flat cel colours and one simple step of soft lavender shading. [Shot 1] The shot's keyframe corresponds to <Picture 1>, whose framing, set and light hold from the first frame to the last. Night: the window at the left is a dark navy blur, warm lamplight from the left. Close on the girl, her face filling most of the frame, turned three-quarters toward screen left, lit from the lower left by a cool white glow from the laptop just out of frame. Her arm on the frame's left reaches down past the lower left corner to the laptop's trackpad; over the first two seconds her shoulder and upper arm shift steadily sideways as her hand glides the cursor across the trackpad, and her eyes, turned down toward the screen at the lower left, travel along it, following the cursor. Then her shoulder gives one small, firm dip as her finger clicks, and her eyes light up. The girl (S1), an early-teens girl with a bright, light, crisp voice, says it instantly and decisively, <d>[English] That one!</d> Her lips close and the speaking motion stops, and she breaks into a small delighted laugh, her shoulders bouncing. The camera holds a static shot. Through every frame the picture keeps the look of <Picture 1>: the same bold, clean dark outlines of even weight, the same bright flat cel colours with one simple step of soft shading, the same palette and light, drawn as hand-animated 2D anime with crisp, steady line work. The girl keeps her look exactly as in <Picture 1> in every frame: a wavy black bob with violet-dyed tips underneath and one small curl sticking up on top, a white headband printed with violet stars tied in a big bow on top of her head, a black choker, an oversized white hoodie with a violet konte logo on the chest and a thin violet shoulder-bag strap across it, her face, big dark eyes and hair shape unchanged.\n\noverall_soundscape: Soft rain on the dark window at night, with a faint, quiet bedroom room tone underneath. The soft whisper of a fingertip on a trackpad, one crisp click, then a short, happy giggle.\n\nnon_diegetic_music: N/A",
+    "136.width": 1248,
+    "136.height": 704,
+    "136.length": 90,
+    "136.ref_image_size": "max",
+    "129.noise_seed": "__konte:seed__",
+    "143.value": 20,
+    "146.value": false,
+    "130.fps": 24,
+    "127.unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "128.clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "119.vae_name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "120.vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+    "145.lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+  },
+  "prunedNodes": [
+    "139",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154",
+    "155",
+    "156",
+    "157",
+    "158",
+    "159",
+    "169",
+    "170",
+    "171",
+    "160",
+    "161",
+    "162",
+    "165",
+    "166",
+    "167",
+    "168"
+  ],
+  "prunedPassThroughs": {
+    "166": "positive",
+    "168": "positive"
+  },
+  "models": [
+    {
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+    },
+    {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    },
+    {
+      "filename": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "type": "lora",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "137.image": "image1",
+    "163.audio": "audioStem",
+    "136.prompt": "prompt",
+    "136.width": "width",
+    "136.height": "height",
+    "136.length": "length",
+    "136.ref_image_size": "refImageSize",
+    "129.noise_seed": "seed",
+    "143.value": "steps",
+    "146.value": "useTurbo",
+    "130.fps": "fps",
+    "127.unet_name": "unetName",
+    "128.clip_name": "clipName",
+    "119.vae_name": "vaeName",
+    "120.vae_name": "audioVaeName",
+    "145.lora_name": "loraName"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "animatic",
+  "summary": "n09 の掲示板画面を直しました。",
+  "notes": [
+    {
+      "address": "animatic:shot.n09",
+      "text": "アップボートを 18 と 7 に減らしました。検索バー、サイドバー（About Community・Rules）、ほかの返信も足しています。「Does it work without a big GPU?」の返信は、後半19の「A GPU? ...In this?」の前振りにもなります。気になるようでしたら差し替えます。"
+    }
+  ]
+}

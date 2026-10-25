@@ -1,0 +1,27 @@
+<div id="stage"><div class="screen-wrap" style="position:absolute;inset:0;transform-origin:43% 35%;transform:scale(1.35)"><img src="konte://asset/animatic/shot.28.screen/v-KQLwgCkU/output.png" alt="" class="konte-clip" data-start="0" data-duration="2.5" /></div><script>(function () {
+window.__timelines = window.__timelines || {};
+var shotTl = window.__timelines["shot-28"];
+if (!shotTl) {
+  shotTl = gsap.timeline({ paused: true });
+  window.__timelines["shot-28"] = shotTl;
+}
+var tl = gsap.timeline();
+shotTl.add(tl, 0);
+var split = function (selector, options) {
+  var result = SplitText.create(document.querySelectorAll(selector), options);
+  return { chars: result.chars, words: result.words };
+};
+try {
+(({ timeline, data }) => {
+          timeline.to(".screen-wrap", { scale: data.fs * 1.06, duration: 6, ease: "none" }, 0);
+          data.ats.forEach((t, i) => timeline.to(`[data-step="${i}"]`, { opacity: 1, duration: data.fade, ease: "power2.out" }, t));
+        })({ timeline: tl, split: split, data: JSON.parse("{\"ats\":[],\"fs\":1.35,\"fade\":0.2}") });
+} catch (err) {
+  var msg = (err && err.message) ? err.message : String(err);
+  window.__konteAnimateErrors = window.__konteAnimateErrors || [];
+  window.__konteAnimateErrors.push({ shotId: "28", message: msg });
+  console.error("[konte] <Animate> script threw in shot " + "28" + ": " + msg +
+    " — every tween after the throw is missing. The script is serialized and run in the browser, so it cannot reference anything outside itself.");
+  var host=document.querySelector("[data-composition-id=\"shot-28\"]");if(host&&host.tagName==="META")host=null;host=host||document.getElementById("stage")||document.body;if(host){var box=document.createElement("div");box.setAttribute("data-konte-animate-error","shot-28");box.style.cssText="position:absolute;left:0;right:0;bottom:0;z-index:2147483647;background:#b00020;color:#fff;font:600 14px/1.4 ui-monospace,monospace;padding:10px 14px;white-space:pre-wrap;word-break:break-word;";box.textContent="konte: <Animate> script failed in "+"shot-28"+"\n"+msg;host.appendChild(box);}
+}
+})();</script></div><script>(function(){var g=window.gsap;if(!g||!g.timeline)return;window.__timelines=window.__timelines||{};var key="shot-28";var tl=window.__timelines[key];if(!tl||typeof tl.set!=="function"){tl=g.timeline({paused:true});window.__timelines[key]=tl;}tl.set({},{},2.5);})()</script>

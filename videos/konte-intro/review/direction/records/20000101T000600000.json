@@ -1,0 +1,160 @@
+{
+  "mode": "direction-preview",
+  "stage": "direction",
+  "createdAt": "2000-01-01T00:06:00.000Z",
+  "context": {
+    "shots": [],
+    "directionParts": {
+      "direction:sequence": "2dc4cbf36ece",
+      "direction:brief.logline": "03fa4d3272cd",
+      "direction:brief.hook": "f61620012b0a",
+      "direction:brief.audience": "83efedf86416",
+      "direction:brief.tone": "a2f2503656e6",
+      "direction:brief.look": "0ae30f5b2a00",
+      "direction:brief.outOfScope": "f2285f71f3da",
+      "direction:brief.tolerances": "e881b4920e94",
+      "direction:policy.format": "0ada616adc30",
+      "direction:policy.lang": "50eac10e7966",
+      "direction:policy.fonts": "ff52e631046a",
+      "direction:policy.speech": "3e07f22f81c0",
+      "direction:waivers.opening-key_41": "cdfb9fcc9e7e",
+      "direction:waivers.view-unanchored_hall.back": "94eeb622d688",
+      "direction:sequence.shots.01": "5864995b492f",
+      "direction:sequence.shots.02": "43384ffe4ff6",
+      "direction:sequence.shots.03": "a90edd7079cb",
+      "direction:sequence.shots.04": "a3dc6cf4775a",
+      "direction:sequence.shots.n01": "34a95e13c7bb",
+      "direction:sequence.shots.n02": "846a53e43ed2",
+      "direction:sequence.shots.n03": "f11bfd748b7f",
+      "direction:sequence.shots.n04": "36444cc54c70",
+      "direction:sequence.shots.n05": "1c2a97d38974",
+      "direction:sequence.shots.n06": "1f37eb600928",
+      "direction:sequence.shots.n07": "30dfb4f1af63",
+      "direction:sequence.shots.07a": "dc502a0a8a59",
+      "direction:sequence.shots.n08": "a26cff98737d",
+      "direction:sequence.shots.n09": "43379e58da65",
+      "direction:sequence.shots.n10": "fd8cb301e3d9",
+      "direction:sequence.shots.16": "1c8bcfd57591",
+      "direction:sequence.shots.17": "6f2ee28bc42f",
+      "direction:sequence.shots.18": "77447274f1db",
+      "direction:sequence.shots.19": "eb7dccb2b380",
+      "direction:sequence.shots.20": "202ad74e6464",
+      "direction:sequence.shots.21": "92ff100813ea",
+      "direction:sequence.shots.22": "c3f17cca1ba5",
+      "direction:sequence.shots.23": "5ba607095489",
+      "direction:sequence.shots.24": "fde079159d2f",
+      "direction:sequence.shots.25": "f6d802261bd2",
+      "direction:sequence.shots.26": "c31087e7dea3",
+      "direction:sequence.shots.26a": "0b7f071686b3",
+      "direction:sequence.shots.26b": "a0440cb5d0c6",
+      "direction:sequence.shots.26c": "cbbedb85e4ab",
+      "direction:sequence.shots.27": "b3d5c19eedc0",
+      "direction:sequence.shots.27a": "db5b0ddd3607",
+      "direction:sequence.shots.28": "c18f4887444e",
+      "direction:sequence.shots.29": "eb623873cbec",
+      "direction:sequence.shots.30": "533b9b67e515",
+      "direction:sequence.shots.35": "9ee8bc2c9cc6",
+      "direction:sequence.shots.35b": "85f20cc7a567",
+      "direction:sequence.shots.35a": "2be95d32cde6",
+      "direction:sequence.shots.32": "8ba35a1d843e",
+      "direction:sequence.shots.33": "84ba10c235ce",
+      "direction:sequence.shots.36": "528e605728bb",
+      "direction:sequence.shots.37": "5a8e0ef0e052",
+      "direction:sequence.shots.37a": "c55f59f84d55",
+      "direction:sequence.shots.38": "f394eac32710",
+      "direction:sequence.shots.39": "d4c5585e2157",
+      "direction:sequence.shots.41": "62815a606dd3",
+      "direction:characters.konte": "1a399fe51a53",
+      "direction:characters.konte.voice": "1c43971bb8f8",
+      "direction:props.poster": "91bf2348f10e",
+      "direction:props.manuscript": "7e320c38926a",
+      "direction:props.laptop": "8b29a00ff092",
+      "direction:props.paperWhale": "fde34d69c885",
+      "direction:locations.room": "5a5c55e07cbf",
+      "direction:locations.hallway": "9a7d84478eb7",
+      "direction:locations.campus": "14bc5a0605aa",
+      "direction:locations.hall": "7ae5668ad2a1",
+      "direction:setups.boardMedium": "0a8d57e91a68",
+      "direction:setups.hallClose": "fe1705b3f94f",
+      "direction:setups.posterInsert": "84f3003bec30",
+      "direction:setups.manuscriptInsert": "2754ce307202",
+      "direction:setups.deskMedium": "3b9ab022d376",
+      "direction:setups.konteClose": "79629b72cff8",
+      "direction:setups.deskInsert": "d0ae57a5986b",
+      "direction:setups.windowInsert": "e006117c0e07",
+      "direction:setups.deskInsertNight": "cbb6924368ab",
+      "direction:setups.campusWide": "cc05d6146795",
+      "direction:setups.hallWide": "d141ba5afd53",
+      "direction:setups.screenInsert": "7c81fc96459b",
+      "direction:setups.seatClose": "c593c0270eb8"
+    }
+  },
+  "decisions": [
+    {
+      "address": "direction:sequence.shots.n09",
+      "feedback": [
+        {
+          "id": "fb-ulXI0HzH",
+          "annotation": null,
+          "text": "github には、AI videos you direct and a coding agent produces という文言はない。\n🎬 Make multi-shot AI videos the way you build software with a coding agent.\nの description が使えるかなあ。",
+          "stale": false,
+          "added": true
+        }
+      ]
+    },
+    {
+      "address": "direction:sequence.shots.n07",
+      "feedback": [
+        {
+          "id": "fb-EmOdiHXX",
+          "annotation": null,
+          "text": "ここらへん 1.5s で足りる？",
+          "stale": false,
+          "added": true
+        }
+      ]
+    }
+  ],
+  "directionDecisions": {
+    "props": "accepted",
+    "brief": "accepted",
+    "shots": "none"
+  },
+  "directionGate": {
+    "open": true,
+    "blocking": 0,
+    "total": 82
+  },
+  "handoffId": "20000101T000559000",
+  "handoffSummary": "WORK.md に沿って冒頭（旧04a〜15）を差し替えました。動画生成サイトで1本はうまくいく→つなぐとクジラの目つきがばらばら→作り直しのファイルの山→konte を見つけて半信半疑で試す、の流れで、16以降は 26c 以外そのままです。尺は約118秒です。",
+  "handoffNotes": [
+    {
+      "address": "direction:brief.logline",
+      "text": "新しい冒頭の流れに合わせて書き換えました。"
+    },
+    {
+      "address": "direction:brief.outOfScope",
+      "text": "WORK.md の演出方針から3つ足しました（konteの仕組みを語らせない／大喜びさせない／動画生成サイトを悪者にせず、実在サービスにも似せない）。"
+    },
+    {
+      "address": "direction:sequence.shots.n05",
+      "text": "「キャラクターの一貫性」の困りごとを、クリップごとにクジラの目つきが違うことで見せます。次の n06 の「No... her eyes are kinder.」が、後半27のコメントにつながります。"
+    },
+    {
+      "address": "direction:sequence.shots.n08",
+      "text": "途方に暮れる場面です。「120枚」の代わりに「80ショット」で規模を示します。"
+    },
+    {
+      "address": "direction:sequence.shots.n09",
+      "text": "konteのページには README と同じ一文だけを見せて、説明はしません。そのまま16の Claude Code へつなぎます。"
+    },
+    {
+      "address": "direction:sequence.shots.26c",
+      "text": "パラパラ漫画がなくなったので、漫画原稿のクジラのコマを見つめる絵に差し替えます。"
+    },
+    {
+      "address": "direction:sequence.shots.07a",
+      "text": "旧版の夜の窓のカットを、そのまま使い回します。"
+    }
+  ]
+}

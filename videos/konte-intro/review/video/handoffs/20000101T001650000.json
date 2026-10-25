@@ -1,0 +1,70 @@
+{
+  "stage": "video",
+  "summary": "全体の指摘どおり、字幕の位置を以前の高さに戻しました。n02・n05 のプロンプトの太さも揃えています。",
+  "notes": [
+    {
+      "address": "video:shot.02",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.03",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.n04",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.n06",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.n08",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.n09",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.n10",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.16",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.19",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.24",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.26",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.27",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.29",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.35",
+      "text": "字幕を、konte更新前と同じ高さに戻しました。"
+    },
+    {
+      "address": "video:shot.n02",
+      "text": "プロンプトの文字を Nunito に揃えたので、画面が切り替わっても太さが変わらなくなりました。"
+    },
+    {
+      "address": "video:shot.n05",
+      "text": "3枚ともプロンプトを Nunito に揃えたので、太さも改行位置も変わらなくなりました。"
+    }
+  ]
+}

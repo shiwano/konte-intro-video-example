@@ -1,0 +1,34 @@
+{
+  "stage": "direction",
+  "summary": "WORK.md に沿って冒頭（旧04a〜15）を差し替えました。動画生成サイトで1本はうまくいく→つなぐとクジラの目つきがばらばら→作り直しのファイルの山→konte を見つけて半信半疑で試す、の流れで、16以降は 26c 以外そのままです。尺は約118秒です。",
+  "notes": [
+    {
+      "address": "direction:brief.logline",
+      "text": "新しい冒頭の流れに合わせて書き換えました。"
+    },
+    {
+      "address": "direction:brief.outOfScope",
+      "text": "WORK.md の演出方針から3つ足しました（konteの仕組みを語らせない／大喜びさせない／動画生成サイトを悪者にせず、実在サービスにも似せない）。"
+    },
+    {
+      "address": "direction:sequence.shots.n05",
+      "text": "「キャラクターの一貫性」の困りごとを、クリップごとにクジラの目つきが違うことで見せます。次の n06 の「No... her eyes are kinder.」が、後半27のコメントにつながります。"
+    },
+    {
+      "address": "direction:sequence.shots.n08",
+      "text": "途方に暮れる場面です。「120枚」の代わりに「80ショット」で規模を示します。"
+    },
+    {
+      "address": "direction:sequence.shots.n09",
+      "text": "konteのページには README と同じ一文だけを見せて、説明はしません。そのまま16の Claude Code へつなぎます。"
+    },
+    {
+      "address": "direction:sequence.shots.26c",
+      "text": "パラパラ漫画がなくなったので、漫画原稿のクジラのコマを見つめる絵に差し替えます。"
+    },
+    {
+      "address": "direction:sequence.shots.07a",
+      "text": "旧版の夜の窓のカットを、そのまま使い回します。"
+    }
+  ]
+}

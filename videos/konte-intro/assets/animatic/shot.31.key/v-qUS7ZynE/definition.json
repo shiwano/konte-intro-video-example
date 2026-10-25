@@ -1,0 +1,69 @@
+{
+  "kind": "comfy",
+  "workflow": "image_minimax_h3_r2i.json",
+  "inputs": {
+    "21.image": "__konte:animatic:plate.deskMedium__",
+    "22.image": "__konte:reference:konte__",
+    "23.image": "__konte:reference:laptop__",
+    "24.image": "__konte:animatic:shot.15.key__",
+    "10.prompt": "subject_definitions: <Picture 1> is the empty frame of [Shot 2].\n<Subject 1> is the girl, a wavy black bob with violet-dyed tips underneath and one small curl sticking up on top, a white headband printed with violet stars tied in a big bow on top of her head, a black choker, an oversized white hoodie with a violet konte logo on the chest and a thin violet shoulder-bag strap across it, her face, hair and clothing taken from <Picture 2>.\n<Subject 2> is the small, thin white laptop with a plain white lid in <Picture 3>.\n<Picture 4> is the frame of [Shot 1], the earlier shot on the same camera.\n\nsummary: [keyframe completion] Before dawn, the same camera: <Subject 1> working at the small laptop of <Subject 2>, the window beginning to pale.\n\nretention_analysis: <Picture 1> ([Shot 2] frame): partially_preserved - the set, camera position and framing hold; the light is remade as night, as the description writes it.\n<Subject 1> (appears in [Shot 1], [Shot 2]): partially_preserved - her face, hair and clothing hold; the sheet's cheerful expression and standing pose are remade as the description writes them.\n<Subject 2> (appears in [Shot 1], [Shot 2]): partially_preserved - its design and colours hold; where it lies and how it is held are new.\n<Picture 4> ([Shot 1] frame): partially_preserved - the window, the desk, the manga stack at the right and the camera carry across; her pose, the laptop's place and the light are remade as the description writes them.\n\ndetailed_description: 2D-animated. A modern flat-colour anime illustration with bold, clean dark outlines of even weight, bright flat cel colours and one simple step of soft lavender shading. [Shot 1] The shot shows <Picture 4>. [Shot 2] At 00:00.500, The last of the night: the thin strip of rainy window at the left edge is paling, cool grey dawn light beginning to spread across the off-white wall at the right and the violet chair, the warm amber lamp glow fading. Seen at seated eye level across the desk, the small white laptop of <Subject 2> stands open on the left part of the desktop, turned side-on to the camera, its screen facing screen right toward her, its glow lighting her from below; the manga stack lies at the right of the desktop as in the previous shot. <Subject 1> sits behind the desk just right of centre, waist-up, leaning toward the laptop, her head turned toward screen left, her eyes on its screen, both forearms resting on the desk edge and her fingers on its keyboard, her face calm and absorbed, her hair a little messy.\n\noverall_soundscape: N/A\n\nnon_diegetic_music: N/A",
+    "10.width": 1248,
+    "10.height": 704,
+    "10.ref_image_size": "max",
+    "11.noise_seed": "__konte:seed__",
+    "13.steps": 20,
+    "1.unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "2.clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "3.vae_name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "4.vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+    "10.length": 22,
+    "17.batch_index": 17
+  },
+  "prunedNodes": [
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ],
+  "models": [
+    {
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "type": "diffusion_model",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "clip",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+    },
+    {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "type": "VAE",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    }
+  ],
+  "inputLabels": {
+    "21.image": "image1",
+    "22.image": "image2",
+    "23.image": "image3",
+    "24.image": "image4",
+    "10.prompt": "prompt",
+    "10.width": "width",
+    "10.height": "height",
+    "10.ref_image_size": "refImageSize",
+    "11.noise_seed": "seed",
+    "13.steps": "steps",
+    "1.unet_name": "unetName",
+    "2.clip_name": "clipName",
+    "3.vae_name": "vaeName",
+    "4.vae_name": "audioVaeName",
+    "10.length": "length",
+    "17.batch_index": "frameIndex"
+  }
+}

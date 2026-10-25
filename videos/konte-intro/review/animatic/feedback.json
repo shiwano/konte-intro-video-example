@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "feedback": {
+    "animatic:shot.n10": [
+      {
+        "id": "fb-jor78LH0",
+        "displayedVariants": {
+          "animatic:shot.n10.key": "v-OzvwlTWA",
+          "animatic:shot.n10.line": "v-9ovFe9pH"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n10#composition": "1460e88f4ae6",
+          "animatic:shot.n10#stem": "ea7a3a849c51"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.635,
+          "y": 0.638
+        },
+        "time": 31.166666666666668,
+        "text": "左向きにして。n08が左向きだったから、イマジナリーラインが崩れてるようにみえる",
+        "createdAt": "2000-01-01T00:08:09.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "animatic:shot.n09": [
+      {
+        "id": "fb-ex2fuMXV",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-rlKuB4Ra"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "d629c25b55d9"
+        },
+        "annotation": null,
+        "time": 28,
+        "text": "Reddit の記事っぽい感じにしたいな",
+        "createdAt": "2000-01-01T00:08:09.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-psQV4sRb",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-OQQ1EpsO"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "ed584d81325f"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.129,
+          "y": 0.223
+        },
+        "time": 28,
+        "text": "214 のアップボートは多すぎでは",
+        "createdAt": "2000-01-01T00:09:26.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-tIQudS4Y",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-OQQ1EpsO"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "ed584d81325f"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.132,
+          "y": 0.505
+        },
+        "time": 28,
+        "text": "このアップボートも",
+        "createdAt": "2000-01-01T00:09:26.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-frWzXTGn",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-OQQ1EpsO"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "ed584d81325f"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.453,
+          "y": 0.843
+        },
+        "time": 28,
+        "text": "他の UI が見えないのは不自然",
+        "createdAt": "2000-01-01T00:09:26.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-F9gXnVCD",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-dkNof0UW"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "78f9e668535d"
+        },
+        "annotation": {
+          "kind": "pin",
+          "x": 0.865,
+          "y": 0.098
+        },
+        "time": 29,
+        "text": "この青色が目立って気になる。リンクを一番目立たせたい",
+        "createdAt": "2000-01-01T00:09:38.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-R8pJgSu1",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-dW1az2Te",
+          "animatic:shot.n09.line": "v-JxQnxWer",
+          "animatic:shot.n09#composition": "v-rQP9ebVH"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "ece556b1a84d",
+          "animatic:shot.n09#stem": "81afb90f5137"
+        },
+        "annotation": null,
+        "time": 29.9,
+        "text": "エムダッシュはAI ぽいからつけないで。",
+        "createdAt": "2000-01-01T00:15:47.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-YabGk0ku",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-dW1az2Te",
+          "animatic:shot.n09.line": "v-JxQnxWer",
+          "animatic:shot.n09#composition": "v-rQP9ebVH"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "ece556b1a84d",
+          "animatic:shot.n09#stem": "81afb90f5137"
+        },
+        "annotation": null,
+        "time": 30.466666666666665,
+        "text": "カーソルで該当箇所のテキストを選択するアニメーションを入れたい",
+        "createdAt": "2000-01-01T00:15:47.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-3yJOxczE",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-dW1az2Te",
+          "animatic:shot.n09.line": "v-JxQnxWer",
+          "animatic:shot.n09#composition": "v-rQP9ebVH"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "ece556b1a84d",
+          "animatic:shot.n09#stem": "81afb90f5137"
+        },
+        "annotation": null,
+        "time": 28.5,
+        "text": "ちょっとショットが切り替わるの急に感じるから、35a とか 0.5s 減らして、こっちの時間増やしてみて",
+        "createdAt": "2000-01-01T00:15:47.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-1KbY8Eo7",
+        "displayedVariants": {
+          "animatic:shot.n09.screen": "v-ehQ4NRaT",
+          "animatic:shot.n09.screenSel1": "v-y3jMyzFu",
+          "animatic:shot.n09.screenSel2": "v-sL0RQWW3",
+          "animatic:shot.n09.screenSel3": "v-cHV38ye9",
+          "animatic:shot.n09.screenSel4": "v-eNi3bwpH",
+          "animatic:shot.n09.screenSel5": "v-GRh4etC9",
+          "animatic:shot.n09.screenSel6": "v-9u7csiL2",
+          "animatic:shot.n09.screenSel7": "v-PHldnTtO",
+          "animatic:shot.n09.line": "v-JxQnxWer",
+          "animatic:shot.n09#composition": "v-rQP9ebVH"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.n09#composition": "b13ceb76cc44",
+          "animatic:shot.n09#stem": "7891ce15516f"
+        },
+        "annotation": null,
+        "time": 30.333333333333332,
+        "text": "カーソル選択なめらかじゃないけど、composition じゃできないの？",
+        "createdAt": "2000-01-01T00:15:51.000Z",
+        "createdBy": "local"
+      }
+    ],
+    "animatic:shot.26c": [
+      {
+        "id": "fb-owu5bh3F",
+        "displayedVariants": {
+          "animatic:shot.26c.key": "v-hnCBcaED",
+          "animatic:shot.26c#composition": "v-bBw75E46"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.26c#composition": "a8de137614e9"
+        },
+        "annotation": null,
+        "time": 71,
+        "text": "明かりけせない？",
+        "createdAt": "2000-01-01T00:17:48.000Z",
+        "createdBy": "local"
+      },
+      {
+        "id": "fb-ppN9oD72",
+        "displayedVariants": {
+          "animatic:shot.26c.key": "v-wiCfOCeH",
+          "animatic:shot.26c#composition": "v-bBw75E46"
+        },
+        "displayedDefinitionHashes": {
+          "animatic:shot.26c#composition": "a8de137614e9"
+        },
+        "annotation": null,
+        "text": "机が青っぽすぎるかも",
+        "time": 71,
+        "createdAt": "2000-01-01T00:17:59.000Z",
+        "createdBy": "local"
+      }
+    ]
+  }
+}
